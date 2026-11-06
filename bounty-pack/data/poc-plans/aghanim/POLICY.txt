@@ -1,0 +1,385 @@
+Bounty Program - Aghanim
+Aghanim Help Center
+Bounty Program
+BR
+Portuguese (Brazil)
+JP
+Japanese
+US
+English (US)
+KR
+Korean
+CN
+Chinese
+ES
+Spanish
+Main Navigation
+English (US)
+BR
+Portuguese (Brazil)
+JP
+Japanese
+US
+English (US)
+KR
+Korean
+CN
+Chinese
+ES
+Spanish
+Bounty Program
+Home
+Bounty Program
+Bounty Program
+Written by
+Yulya Sha
+Last published at: August 24th, 2026
+feedbacks#update" data-controller="glossary" data-glossary-url-value="/glossary_terms.json">
+Table of Contents
+1. About the program
+2. Eligibility
+3. Scope
+4. Out of Scope
+5. Examples of in-scope vulnerabilities
+6. Rules of engagement
+7. Testing guidelines
+8. Reporting a vulnerability
+9. Safe Harbor
+10. Rewards
+11. Duplicate Reports
+12. Payouts
+13. Disclosure Policy
+14. Contact
+15. Submit a report
+16. Revision history
+Policy version: 2026-08-24
+1. About the program
+At
+Aghanim
+, we take the security of our products and users seriously. We welcome responsible disclosure of vulnerabilities and appreciate the efforts of security researchers who help us improve.
+The scope of this program, the assessment of individual reports, and all reward decisions rest with Aghanim. The examples listed in
+5
+are illustrative, not exhaustive — any finding with material security impact on Aghanim or its users is welcome.
+2. Eligibility
+To participate in this program and be eligible for rewards, you must:
+2.1
+Be at
+least 18 years old
+, or the age of majority in your jurisdiction (whichever is higher)
+2.2
+Comply with all applicable laws in your jurisdiction
+2.3
+Provide accurate identity and tax information (e.g. W-9 for US residents, W-8BEN for non-US individuals) before any payout is issued
+2.4
+Aghanim may decline to issue a reward to anyone whose participation is prohibited by law.
+3. Scope
+3.1 Hosts:
+3.1.1
+aghanim.com
+3.1.2
+api.aghanim.com
+3.1.3
+dashboard.aghanim.com
+3.1.4
+dashboard-api.aghanim.com
+3.1.5
+events.aghanim.com
+3.1.6
+events-web.aghanim.com
+3.1.7
+hub-api.aghanim.com
+3.1.8
+hub-api-global.aghanim.com
+3.1.9
+my.aghanim.com
+3.1.10
+my-api.aghanim.com
+3.1.11
+pay.aghanim.com
+3.1.12
+pay-api.aghanim.com
+3.1.13
+s2s-api.aghanim.com
+3.1.14
+sdk-api.aghanim.com
+3.1.15
+upload.aghanim.com
+3.1.16
+*.aghanim.app
+3.1.17
+pay-api.aghanim.store
+3.1.18
+my-api.aghanim.store
+3.1.19
+api.aghanim.store
+3.1.20
+hub-api.aghanim.store
+3.2 SDKs:
+3.2.1
+Aghanim Android SDK
+3.2.2
+Aghanim Unity SDK
+4. Out of Scope
+4.1 Attack types we do not accept:
+4.1.1
+Denial of Service (DoS/DDoS), traffic floods, resource exhaustion
+4.1.2
+Social engineering of Aghanim staff, customers, or partners (e.g. phishing, impersonation, vishing)
+4.1.3
+Physical attacks against offices, data centers, or hardware
+4.1.4
+Brute-force or credential-stuffing attacks against authentication endpoints
+4.1.5
+Email or SMS flooding, including abuse of password-reset or verification flows
+4.1.6
+Aggressive automated scanning that degrades service performance
+4.2 Findings we do not consider security issues on their own:
+4.2.1
+Missing security headers (CSP, HSTS, X-Frame-Options, etc.) without a demonstrated exploit
+4.2.2
+Missing rate limits on non-authentication endpoints without demonstrated harm
+4.2.3
+DNS records (SPF, DKIM, DMARC) or SSL/TLS configuration issues without material impact
+4.2.4
+Disclosure of public information, software versions, banners, or stack traces without leveraged impact
+4.2.5
+Disclosure of public, publishable, or client-side keys for third-party providers (e.g. payment processors, analytics SDKs) that are designed to be safe to embed in untrusted clients
+4.2.6
+Clickjacking on pages without sensitive state-changing actions
+4.2.7
+CSRF on logout, login, or other non-sensitive actions
+4.2.8
+Self-XSS (requires victim to paste payload into their own browser)
+4.2.9
+Open redirects on non-sensitive paths
+4.2.10
+Account or email enumeration without further material impact
+4.2.11
+Tabnabbing on pages without authenticated state
+4.2.12
+Reports based solely on automated-scanner output, without a working proof of concept
+4.2.13
+Reports presenting purely theoretical impact without a realistic exploitation scenario (e.g. speculative race conditions, hypothetical exploit chains, or reports lacking a reproducible proof of concept)
+4.2.14
+Vulnerabilities that depend on guessing or enumerating resource identifiers (e.g. order IDs, user IDs, etc)
+4.3 Out-of-scope assets and environments:
+4.3.1
+Third-party services, libraries, or integrations not owned by Aghanim (e.g. payment providers, analytics SDKs, OAuth providers)
+4.3.2
+Vulnerabilities that depend on outdated browsers, operating systems, or end-user malware
+4.3.3
+Vulnerabilities that require a rooted, jailbroken, or otherwise compromised device, unless the issue results in compromise of other users, backend systems, or sensitive platform data
+4.3.4
+Vulnerabilities in a game integrator's own backend, code, infrastructure, or implementation are out of scope unless they compromise Aghanim's platform security boundaries
+4.4 Business-logic exclusions:
+4.4.1
+Bypassing plan tiers, feature gates, or trial limits without compromising another customer's data or funds
+4.4.2
+Test-mode payment behavior that does not affect live mode
+4.4.3
+Issues that require a malicious game integrator acting against their own players (this is a trust boundary handled in the integration contract, not a security vulnerability)
+4.4.4
+Abuse scenarios that rely solely on self-funded transactions, self-referrals, or manipulation of the attacker's own account or in-game economy, unless they demonstrably affect other players, other games, or Aghanim's financial integrity
+4.4.5
+Fraud scenarios that require stolen payment methods, compromised third-party accounts, or social engineering of other users — these describe abuse of stolen inputs, not vulnerabilities in Aghanim
+4.4.6
+Reports characterizing Aghanim's documented authentication and authorization methods as vulnerabilities (e.g.
+login by Player ID
+,
+composite authorization
+). These are intentional integration patterns — the game integrator chooses which player identifier to use and how strongly to protect it
+5. Examples of in-scope vulnerabilities
+The categories below illustrate the kinds of issues we are most interested in. The list is not exhaustive — anything with material security impact on Aghanim or its users is welcome.
+5.1 Account and authentication:
+5.1.1
+Account takeover of Aghanim Dashboard, player accounts, or Game Hub users
+5.1.2
+Authentication bypass on S2S, dashboard, or hub APIs
+5.1.3
+OAuth and social-login flow vulnerabilities (Apple, Discord, Facebook, Google, Telegram, OIDC)
+5.1.4
+JWT or session-token forgery, replay, or insufficient revocation
+5.1.5
+Cross-tenant access: one game reading or modifying another game's data
+5.2 Payment and order integrity:
+5.2.1
+Tampering with SKU, price, currency, or item quantity during checkout
+5.2.2
+Bypassing payment to receive paid items, subscriptions, or entitlements
+5.2.3
+Webhook replay leading to duplicate item grants (idempotency bypass)
+5.2.4
+Refund or dispute manipulation affecting other games or players
+5.2.5
+Subscription state manipulation (extending, reactivating, or transferring without payment)
+5.2.6
+Unauthorized creation, duplication, or transfer of virtual currency, inventory, or entitlements
+5.3 Platform and data integrity:
+5.3.1
+Remote code execution or command injection on any in-scope host
+5.3.2
+SQL injection, SSRF, or insecure deserialization
+5.3.3
+Stored or reflected XSS in the Dashboard, Game Hub, or checkout flows
+5.3.4
+CSRF on sensitive state-changing actions (payment, account changes, dashboard settings)
+5.3.5
+Exposure of PII, payment metadata, API keys, or internal credentials
+6. Rules of engagement
+When testing our systems, you agree to:
+6.1
+Act in good faith and avoid privacy violations
+6.2
+Only access data that belongs to you or test accounts
+6.3
+Not modify, destroy, or exfiltrate user data
+6.4
+Avoid disrupting our services or degrading performance
+6.5
+Immediately stop testing and report if sensitive data is exposed
+6.6
+Not access additional systems, accounts, or data beyond what is minimally necessary to demonstrate the vulnerability
+6.7
+Cooperate in good faith with Aghanim during triage and remediation, including responding to reasonable requests for additional reproduction details or PoC artifacts
+7. Testing guidelines
+These operational guidelines help you stay within the rules of engagement and make your reports easier to triage.
+7.1
+Use test accounts.
+Create your own accounts for testing. Do not interact with accounts, games, or data that belong to other users.
+7.2
+Identify your traffic.
+Where technically feasible (browser, CORS, and mobile-SDK constraints permitting), include the header X-Bug-Bounty: <your-email> in requests so we can distinguish research from real attacks during incident review.
+7.3
+Throttle automated tools.
+Avoid high-volume automated scanning or fuzzing that may impact service availability or performance. Stop immediately if you observe instability or degradation. Aggressive automation against production is treated as out of scope.
+7.4
+Limit proof of concept.
+Demonstrate the vulnerability with the minimum necessary impact. Do not pivot, escalate, persist, or move laterally beyond what is required to prove the issue.
+7.5
+Handle sensitive data carefully.
+If you encounter another user's data, credentials, or payment information, stop immediately, do not download or retain it, and report what you found. Redact sensitive values in your report.
+7.6
+Avoid production side effects.
+Do not perform actions that create real charges, send real notifications to other users, or alter shared data.
+8. Reporting a vulnerability
+8.1
+Please report vulnerabilities via the form below or
+bugbounty@aghanim.com.
+8.2
+Include:
+8.2.1
+Clear description of the issue
+8.2.2
+Step-by-step reproduction instructions
+8.2.3
+Proof of concept (PoC)
+8.2.4
+Potential impact
+8.2.5
+Suggested fix (optional)
+8.3
+We aim to acknowledge receipt within
+3 business days
+and provide an initial triage assessment within
+10 business days
+. We will keep you informed throughout the process.
+9. Safe Harbor
+If you make a good faith effort to comply with this policy, we consider your research to be authorized. In addition:
+9.1 Authorization and commitments:
+9.1.1
+We will not pursue legal action against you
+9.1.2
+We will not report your activity to law enforcement
+9.2 Conditions:
+This applies only if:
+9.2.1
+You stay within the defined scope
+9.2.2
+You follow the rules of engagement
+9.2.3
+You do not cause harm to users or systems
+10. Rewards
+10.1
+Rewards are determined by Aghanim based on the severity of the vulnerability and its impact on Aghanim's platform and users.
+Severity
+Example
+Reward
+Critical
+Remote code execution, account takeover
+$1250
+High
+Authentication bypass, data exposure
+$550
+Medium
+XSS, privilege escalation
+$250
+Low
+Information disclosure
+$50
+10.2
+Aghanim uses
+CVSS v4.0
+as a starting point but reserves the right to make an individual assessment — particularly for business-logic vulnerabilities in payments, entitlements, and game/player trust boundaries, which often don't fit CVSS cleanly.
+10.3 Discretionary factors:
+Rewards are discretionary and based on:
+10.3.1
+Severity and impact
+10.3.2
+Quality of the report
+10.3.3
+Reproducibility
+10.3.4
+Novelty of the finding
+11. Duplicate Reports
+Only the first valid, reproducible report of a given root cause is eligible for a reward. Subsequent reports of the same root cause are marked as duplicates and receive no reward or partial credit. Distinct root causes are treated as separate findings, even if they affect the same feature or endpoint.
+12. Payouts
+Rewards are denominated and paid in
+USD
+via
+PayPal
+or
+bank transfer
+. Payouts are issued after the vulnerability is confirmed fixed and the reward decision is finalized by Aghanim.
+13. Disclosure Policy
+Please do not publicly disclose vulnerabilities until:
+The issue has been resolved, and
+You have received permission from Aghanim
+We are open to coordinated disclosure after remediation.
+14. Contact
+For any security-related inquiries, email
+bugbounty@aghanim.com.
+15. Submit a report
+16. Revision history
+August 24, 2026:
+Added §4.2.14 (resource identifier enumeration).
+August 18, 2026:
+Added section numbering for stable cross-references. Added revision history. No policy changes.
+August 5, 2026:
+Added .aghanim.store domains to scope (pay-api, my-api, api, hub-api).
+August 4, 2026:
+Wording refinements.
+May 16, 2026:
+Major revision. Added Eligibility requirements, SDKs to scope, detailed Out of Scope categories with business-logic exclusions, Examples of in-scope vulnerabilities, Payouts section. Contact changed to bugbounty@aghanim.com. Added CVSS v4.0 reference.
+May 8, 2026:
+Program launched. Initial scope, rules of engagement, testing guidelines, rewards. Contact: security@aghanim.com.
+Was this article helpful?
+(47)
+feedbacks#showFeedbackForm" data-helpjuice-element="Write Feedback" data-helpjuice-attributes="visibility" data-helpjuice-related-elements="Write Feedback Icon,Write Feedback Text">
+Give feedback about this article
+Related Articles
+Purchase not received
+If you’ve been charged but haven’t received your items, don’t worry—follow the st...
+Refund policy
+At Aghanim Inc., we specialize in selling in-game items, often accompanied by uni...
+Refund policy
+At Aghanim Inc., we specialize in selling in-game items. Most items reach your ga...
+How to unlink card details
+To unlink card associated with your subscription: Go to my.aghanim.com   Log in w...
+Could you provide a free promo code?
+Social media promo codes The codes are typically distributed on social media chan...
+show contact form -->
+Contact Us
+General Service
+Privacy Policy
+© 2023–2026 Aghanim, Inc.
+All rights reserved.

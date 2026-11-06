@@ -1,0 +1,2 @@
+https://www.manabuff.com/
+https://manabuff.com/api/auth/login

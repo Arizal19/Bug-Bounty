@@ -1,0 +1,12 @@
+{
+    "https://api.aghanim.com/hub/v1/websites/wikipedia-i2yx/items": {
+        "headers": {
+            "X-Bug-Bounty": "RESEARCHER_EMAIL"
+        },
+        "method": "GET",
+        "params": [
+            "country",
+            "type"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+Hello Aghanim team,
+
+My name is RESEARCHER_NAME and I am an independent security researcher. I am sending this to the address published in your security.txt and bounty programme page. If there is a better place for it, please point me there and I will resend.
+
+I found that one of your checkout APIs returns full order records to anyone who asks, with no authentication. The order object holds the customer IP address, the browser User-Agent, the in-game player identifier and the player display name.
+
+The checkouts front-end can reach two API generations. The current one is pay-api.aghanim.com/order/v1 and it refuses this read with 405 Method Not Allowed. The legacy sibling at api.aghanim.com/checkout/v1 answers the same request with 200 OK and the whole order body.
+
+The request is this, with no header of any kind:
+
+    curl -s -i https://api.aghanim.com/checkout/v1/orders/ord_eFnCYslSTNAhPSCm
+
+That returns 200 and 6192 bytes of JSON for a live, non-sandbox order in Westland Survival - Cowboy RPG, including ip_address, user_agent, player_id, player_info.name, user_id and datahouse_user_id. The same id against pay-api.aghanim.com/order/v1/orders/ord_eFnCYslSTNAhPSCm returns 405. A non-existent id on the legacy route returns 404, so the 200 is specific to a real order and not a catch-all.
+
+I want to be clear about how I got the order id, because your policy excludes findings that depend on guessing identifiers. I did not guess it. That URL is the player-facing checkout link and it is indexed publicly by search engines, which is how I found it. The identifier is published, not enumerated. I read exactly one order, the one in the search result, and stopped there.
+
+What this means in practice: anyone who has ever shared their checkout or receipt link, in a support ticket, a chat or a screenshot, hands over a profile of that customer. The most direct use is account recovery against the game operator, because player_id plus display name plus IP plus device fingerprint is what support staff ask a player to confirm. It also links one person across every game on the platform through datahouse_user_id. I did not attempt any recovery and I am not claiming account takeover. What I am reporting is the disclosure.
+
+Reproduction is three steps, and I ran it three times, 8 to 10 seconds apart, with identical results each time.
+
+What I did not do: I used GET requests only, I did not modify anything, I did not create an account, I did not enumerate or read any other order, and I have not shared this with anyone else. When I saw the first response contained another customer's data I stopped, wrote nothing to disk, and every value in the attached report is redacted.
+
+To fix it, put the legacy /checkout/v1/orders/{id} route behind the same authorization the current generation uses, or retire it. If a guest read is genuinely needed for checkout, return only what the page renders, which is item, amount, currency and status, and keep ip_address, user_agent and the player identity server side.
+
+The attached PDF has the full write-up with the four requests and the redacted response.
+
+Thank you for your time.
+
+Best regards,
+RESEARCHER_NAME
+RESEARCHER_EMAIL

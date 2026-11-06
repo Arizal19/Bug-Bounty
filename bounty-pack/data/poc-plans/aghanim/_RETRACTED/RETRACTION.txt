@@ -1,0 +1,29 @@
+RETRACTION - F1 "unauth third-party order read"
+================================================
+Status: WITHDRAWN. Never sent. Draft deleted from Gmail.
+
+WHY IT IS NOT A VULNERABILITY
+  The order link is a bearer capability BY DESIGN (guest checkout).
+  POST https://pay-api.aghanim.com/order/v1/orders/{id}/resolve
+    - no auth header
+    - this is the exact route the legitimate checkout page itself calls
+      (verified in a headless browser load of pay.aghanim.com/en/order/{id})
+    - returns the SAME fields: ip_address, user_agent, player_id,
+      player_info{name,avatar_url,attributes}, user_id, datahouse_user_id
+  The checkout page renders only item/price/total, but the data behind it is
+  reachable by anyone holding the link. That is the documented design:
+  docs say "treat the resulting URL as opaque - do not modify the path",
+  i.e. the URL is the capability.
+
+WHAT I MISTAKENLY DID
+  I compared the legacy sibling GET (api.aghanim.com/checkout/v1/orders/{id})
+  against pay-api's GET, which returns 405. I concluded "two APIs disagree".
+  The correct baseline was the documented public flow (POST /resolve), which
+  returns the same data. Comparing against a route that does not exist made a
+  design property look like an authorization gap.
+
+LESSON (repeated from relay.link, 2026-10-26)
+  Before reporting "endpoint X has no auth", read the documented flow and find
+  the route the legitimate client actually calls. Then check whether THAT route
+  already exposes the same data to the same anonymous caller. If it does, the
+  data is public by design and there is nothing to report.

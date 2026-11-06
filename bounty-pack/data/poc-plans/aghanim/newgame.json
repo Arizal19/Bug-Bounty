@@ -1,0 +1,28 @@
+{
+ "name": "BB Test Game",
+ "logo_url": "https://static-platform.aghanim.com/news/db/46/81/b6/db4681b6-8dba-4450-887e-855d05411e67.webp",
+ "locale_default": "en",
+ "id": "gm_eLmGWvAlcrc",
+ "company_id": "com_eLmGVLbDpXD",
+ "sandbox": false,
+ "sandbox_game_id": null,
+ "sandbox_game_ids": null,
+ "live_game_id": null,
+ "environment": {
+  "id": "production",
+  "name": null,
+  "color": null
+ },
+ "published_at": null,
+ "status": null,
+ "internal_label": null,
+ "url": "https://example.com",
+ "description": "bb test game",
+ "social_medias": [],
+ "game_stores": [],
+ "login_methods": [
+  "user_id"
+ ],
+ "login_settings": null,
+ "use_webhook_response_data_schema": null
+}

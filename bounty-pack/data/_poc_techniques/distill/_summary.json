@@ -1,0 +1,32 @@
+{
+ "security/bug-bounty": {
+  "files": 730,
+  "tech_bullets": 6217,
+  "out": "D:/data hermes/_poc_techniques/distill\\security__bug-bounty.md",
+  "out_bytes": 658754
+ },
+ "security/exploit-cookbook": {
+  "files": 89,
+  "tech_bullets": 597,
+  "out": "D:/data hermes/_poc_techniques/distill\\security__exploit-cookbook.md",
+  "out_bytes": 71008
+ },
+ "security/bb-audit-launcher": {
+  "files": 69,
+  "tech_bullets": 526,
+  "out": "D:/data hermes/_poc_techniques/distill\\security__bb-audit-launcher.md",
+  "out_bytes": 63012
+ },
+ "bugbounty-playbook": {
+  "files": 187,
+  "tech_bullets": 150,
+  "out": "D:/data hermes/_poc_techniques/distill\\bugbounty-playbook.md",
+  "out_bytes": 22793
+ },
+ "security/bug-bounty-exhaustive-testing": {
+  "files": 20,
+  "tech_bullets": 59,
+  "out": "D:/data hermes/_poc_techniques/distill\\security__bug-bounty-exhaustive-testing.md",
+  "out_bytes": 11747
+ }
+}

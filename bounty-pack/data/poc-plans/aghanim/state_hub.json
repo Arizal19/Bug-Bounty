@@ -1,0 +1,85 @@
+{
+ "cookies": [
+  {
+   "name": "csrf_token",
+   "value": "ea630cd6-5493-4e54-8120-d4758c52d8d8",
+   "domain": "dashboard.aghanim.com",
+   "path": "/",
+   "expires": 1795705214,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "Lax",
+   "partitionKey": "https://aghanim.com",
+   "_crHasCrossSiteAncestor": false
+  },
+  {
+   "name": "ph_phc_IM8qNhwep8GecDOu3yJbFhSdU5gnXH7KQdPFDU9gR7_posthog",
+   "value": "%7B%22%24device_id%22%3A%2201a17de0-52b4-7153-8b97-bd7b44391cb3%22%2C%22distinct_id%22%3A%2201a17de0-52b4-7153-8b97-bd7b44391cb3%22%2C%22%24user_state%22%3A%22anonymous%22%7D",
+   "domain": ".aghanim.com",
+   "path": "/",
+   "expires": 1824649215,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "Lax"
+  },
+  {
+   "name": "did",
+   "value": "s%3Av0%3A8ed94e7f-9f21-48df-b516-404c5064f9e5.xR7eXW2E7vVTt0QRcSnI8ntmwSsJr3Z87PSSB2xja3Q",
+   "domain": "auth0.aghanim.com",
+   "path": "/",
+   "expires": 1824670818.576322,
+   "httpOnly": true,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "auth0",
+   "value": "s%3Av1.gadzZXNzaW9ug6ZoYW5kbGXEQJqdi5X0MYUsimTXkvve3hTa_v4cMTNf0MIFsMJpM4UrR7Lm__IQnVF728Vtfa0yP7lcryORCfyyPBGbaRIVoBymY29va2llg6dleHBpcmVz1_-i1wMAauSxAq5vcmlnaW5hbE1heEFnZc4PcxQAqHNhbWVTaXRlpG5vbmWkc2JpZJHZIFV3ai1saXNrRGFjbzc3Nm5iYWZ2cXhDUTU5VGlwOUJT.9aRHPMgnA9TNb8bX8OGfXad87D5syDoBi5E%2FKpRFb4U",
+   "domain": "auth0.aghanim.com",
+   "path": "/",
+   "expires": 1793372418.576443,
+   "httpOnly": true,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "did_compat",
+   "value": "s%3Av0%3A8ed94e7f-9f21-48df-b516-404c5064f9e5.xR7eXW2E7vVTt0QRcSnI8ntmwSsJr3Z87PSSB2xja3Q",
+   "domain": "auth0.aghanim.com",
+   "path": "/",
+   "expires": 1824670818.576506,
+   "httpOnly": true,
+   "secure": true,
+   "sameSite": "Lax"
+  },
+  {
+   "name": "auth0_compat",
+   "value": "s%3Av1.gadzZXNzaW9ug6ZoYW5kbGXEQJqdi5X0MYUsimTXkvve3hTa_v4cMTNf0MIFsMJpM4UrR7Lm__IQnVF728Vtfa0yP7lcryORCfyyPBGbaRIVoBymY29va2llg6dleHBpcmVz1_-i1wMAauSxAq5vcmlnaW5hbE1heEFnZc4PcxQAqHNhbWVTaXRlpG5vbmWkc2JpZJHZIFV3ai1saXNrRGFjbzc3Nm5iYWZ2cXhDUTU5VGlwOUJT.9aRHPMgnA9TNb8bX8OGfXad87D5syDoBi5E%2FKpRFb4U",
+   "domain": "auth0.aghanim.com",
+   "path": "/",
+   "expires": 1793372418.576559,
+   "httpOnly": true,
+   "secure": true,
+   "sameSite": "Lax"
+  }
+ ],
+ "origins": [
+  {
+   "origin": "https://dashboard.aghanim.com",
+   "localStorage": [
+    {
+     "name": "i18nextLng",
+     "value": "en"
+    },
+    {
+     "name": "TERMLY_API_CACHE",
+     "value": "{\"TERMLY_STATISTIC\":{\"createdAt\":1793113214054,\"value\":\"__tltpl_b17bd80f-e340-4bde-980b-21391cc6f94d\"},\"__tltpl_b17bd80f-e340-4bde-980b-21391cc6f94d\":{\"createdAt\":1793113214054,\"value\":{\"18fd4126-32f2-46a1-8d53-aafbe9e8f053\":{\"notify\":true,\"version\":30,\"showBanner\":true}}}}"
+    },
+    {
+     "name": "ph_phc_IM8qNhwep8GecDOu3yJbFhSdU5gnXH7KQdPFDU9gR7_posthog",
+     "value": "{\"$initialization_time\":\"2026-10-27T15:00:15.659Z\",\"$configured_session_timeout_ms\":1800000,\"distinct_id\":\"01a17de0-52b4-7153-8b97-bd7b44391cb3\",\"$device_id\":\"01a17de0-52b4-7153-8b97-bd7b44391cb3\",\"$user_state\":\"anonymous\"}"
+    }
+   ]
+  }
+ ]
+}

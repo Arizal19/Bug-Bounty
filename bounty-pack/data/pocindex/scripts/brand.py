@@ -1,0 +1,44 @@
+"""Every user-facing name and URL, in one place.
+
+The site header, the browser title, the social card, the README banner and the
+GitHub About box all have to say the same thing. When they disagree Google picks
+its own site name, and mentions stop compounding into one brand. Change a string
+here and every generated surface follows.
+"""
+
+BRAND = "PoC Index"
+TITLE = f"{BRAND}: Search CVE Proof-of-Concept Exploits"
+# Short line under the wordmark, on the site and on both cards. Also carries
+# og:description and twitter:description.
+SUBTITLE = "Public proof-of-concept exploits, indexed by CVE."
+# Meta description, the JSON-LD description and the GitHub About box, which are
+# three places a reader meets the same sentence and so should be one string.
+# States what the thing is and stops. No trailing feature list.
+DESCRIPTION = (
+    "Search 82,000+ public CVE proof-of-concept exploits from GitHub, Nuclei, "
+    "ExploitDB, Metasploit and Vulhub."
+)
+
+SITE = "https://pocindex.io"
+SLUG = "0xMarcio/pocindex"
+
+
+def host() -> str:
+    """SITE without the scheme, for the places that display a bare domain."""
+    return SITE.split("://", 1)[-1].rstrip("/")
+
+# The head fragment every page shares. The per-CVE pages rendered without it and
+# fell back to system fonts, which is why they read as a different site.
+FONTS = (
+    '<link rel="preconnect" href="https://fonts.googleapis.com"/>\n'
+    '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>\n'
+    '<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600'
+    '&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>'
+)
+
+# One footer credit line. The homepage and the generated pages listed different
+# sources, so a reader met two different claims about where the data comes from.
+SOURCES_LINE = (
+    "sources: nvd &middot; cve program &middot; github &middot; github advisories "
+    "&middot; cisa vulnrichment &middot; cisa kev &middot; first epss"
+)

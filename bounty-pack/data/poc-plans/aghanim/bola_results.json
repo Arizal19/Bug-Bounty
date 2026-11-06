@@ -1,0 +1,1737 @@
+[
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/account_details",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/account_details/persona/reverification",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/account_details/persona/session",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/account_details/persona/session/restart",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/customer_roles",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/customer_roles/system",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/customer_roles/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/achievements",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/achievements/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/annotations/aaBBccDDeeFF/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/antifraud_rule",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/antifraud_rule/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/api_keys",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/api_keys/aaBBccDDeeFF/reveal",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/article_collections",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/article_collections/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/audit_trails",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/audit_trails/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/automations",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/automations/audience-counts",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/automations/runs/stats",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/automations/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/automations/aaBBccDDeeFF/runs",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/automations/aaBBccDDeeFF/runs/aaBBccDDeeFF/stats",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/automations/aaBBccDDeeFF/runs/aaBBccDDeeFF/stats/timeline",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/balance",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/payment_methods",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/payment_methods/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/payment_methods/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/payments",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/payments/aaBBccDDeeFF/history",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/payments/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/payout_request_preview",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/payouts",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/payouts/apply",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/payouts/monthly_aggregated",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/payouts/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/payouts/aaBBccDDeeFF/download/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/receipt_email_from_parameters",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/send_receipt_email_from_parameters",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/aaBBccDDeeFF/email",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/aaBBccDDeeFF/resend_email",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/aaBBccDDeeFF/refund",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/aaBBccDDeeFF/renotify",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/billing/aaBBccDDeeFF/resend_payment_status",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaign_templates",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaign_templates/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns/by_ids",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns/count",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns/aaBBccDDeeFF/current",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns/aaBBccDDeeFF/graph",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns/aaBBccDDeeFF/graph/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns/aaBBccDDeeFF/launch",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns/aaBBccDDeeFF/objects",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns/aaBBccDDeeFF/versions",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns/aaBBccDDeeFF/versions/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns_user/aaBBccDDeeFF/users",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/campaigns_user/aaBBccDDeeFF/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/checkout_links",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/checkout_links/count",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/checkout_links/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/copy",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/coupon_categories",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/coupon_categories/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/coupons",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/coupons/total_stat",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/coupons/user/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/coupons/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/coupons/aaBBccDDeeFF/stat",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creator_applications",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creator_applications/countries",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creator_applications/counts",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creator_applications/aaBBccDDeeFF/approve",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creator_applications/aaBBccDDeeFF/reject",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creator_payouts",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creator_tier_groups",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creator_tier_groups/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creator_tiers",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creator_tiers/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/countries",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 200,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/platforms",
+  "body": "[{\"platform\":\"tiktok\",\"name\":\"TikTok\"},{\"platform\":\"youtube\",\"name\":\"YouTube\"},{\"platform\":\"instagram\",\"name\":\"Instagram\"},{\"platform\":\"threads\",\"name\":\"Threads\"},{\"platform\":\"x_twitter\",\"name\":\"X (Tw"
+ },
+ {
+  "status": 200,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/platforms/define",
+  "body": "{\"platform\":\"other\",\"name\":\"Other\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/aaBBccDDeeFF/authorize",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/aaBBccDDeeFF/balance_adjustments",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/aaBBccDDeeFF/codes",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/aaBBccDDeeFF/payouts",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/aaBBccDDeeFF/payouts/chart",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/aaBBccDDeeFF/report",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/aaBBccDDeeFF/resend-terms",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/aaBBccDDeeFF/social-accounts",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/aaBBccDDeeFF/terms",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/creators/aaBBccDDeeFF/tier-history",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/daily_rewards",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/daily_rewards/user/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/daily_rewards/user/aaBBccDDeeFF/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/daily_rewards/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/daily_rewards/aaBBccDDeeFF/copy",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/discord/channels",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/discord/install/confirm",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/discord/install/url",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/dispute_evidence/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 200,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/email_templates",
+  "body": "[{\"html\":\"<!doctype html>\\n<html lang=\\\"en\\\" xmlns=\\\"http://www.w3.org/1999/xhtml\\\" xmlns:v=\\\"urn:schemas-microsoft-com:vml\\\" xmlns:o=\\\"urn:schemas-microsoft-com:office:office\\\">\\n\\n<head>\\n<meta char"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/expression/functions",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/expression/parse",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/expression/stringify",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/files",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/files/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/game_settings",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/game_settings/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/game_settings/aaBBccDDeeFF/creator_program_secrets",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/game_settings/aaBBccDDeeFF/feature_flags",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/integration_guide/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/integration_guide/aaBBccDDeeFF/steps",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/item_categories",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/item_categories/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/item_claimed/user/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/item_prices/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/item_properties",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/item_properties/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/item_properties_relations/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/item_properties_relations/aaBBccDDeeFF/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/item_rarities",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/item_rarities/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/items",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/items/count",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/items/preview",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/items/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/jobs",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/jobs/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/jobs/aaBBccDDeeFF/cancel",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/leaderboards",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/leaderboards/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/locales",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/locales/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/lootbox_attempts/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/lootboxes",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/lootboxes/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/lootboxes/aaBBccDDeeFF/reset_progress",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/loyalty",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/loyalty/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/loyalty/aaBBccDDeeFF/issue_points",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/loyalty/aaBBccDDeeFF/tiers",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/marketing_rounding/price_after_discount",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/news",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/news/count",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/news/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/notification_setup/generate",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/offers",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/onboarding_progress",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/orders/count",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/orders/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/orders/aaBBccDDeeFF/give_item",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/orders/aaBBccDDeeFF/issue_reward_points",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/pages",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/pages/by_ids",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/pages/slug/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/pages/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/pages/aaBBccDDeeFF/seo",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/payment_images",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/payment_images/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/payment_images/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/pick_one_offers",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 404,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/pick_one_offers/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.not_found\",\"detail\":\"PickOneOffer not found\",\"title\":\"Not Found\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/pick_one_offers/aaBBccDDeeFF/copy",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/piggy_bank_offers",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/piggy_bank_offers/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/piggy_bank_offers/aaBBccDDeeFF/copy",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/plugin_instances",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/plugin_instances/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/plugins",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/plugins/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/price_templates",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/price_templates/prices",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/price_templates/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/prices",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/prices/after_tax",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/prices/item",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/progression_programs",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/progression_programs/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/progression_programs/aaBBccDDeeFF/copy",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/range_offers",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/range_offers/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/range_offers/aaBBccDDeeFF/copy",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/ab_test_data/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/best_triggers_by_date",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/campaign_avg_check/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/campaign_avg_check_by_date/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/campaign_communication_stat/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/campaign_communication_stat_by_date/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/campaign_node_stat/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/campaign_paying_users_count/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/campaign_paying_users_count_by_date/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/campaign_players_count/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/campaign_players_count_by_date/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/campaign_result_node_stat/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/campaign_total_revenue/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/campaign_total_revenue_by_date/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/chargeback_rate",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/chargeback_rate_by_dates",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/conversion_game_hub_first_purchase_by_date",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/creator_top_items",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/creators_breakdown_by_country",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/creators_breakdown_by_date",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/creators_breakdown_by_os",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/creators_codes_summary",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/creators_key_metrics",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/creators_payouts_breakdown",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/creators_payouts_total",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/creators_summary",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/export_transactions",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/hub_visit_data",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/new_users_data",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/payment_users_count",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/payment_users_count_by_date",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/payments_success_fail_by_dates",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/payments_success_percent",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/refund_rate",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/refund_rate_by_dates",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/revenue_by_country",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/revenue_by_date_device",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/revenue_by_dates",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/sales_by_date",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/sankey_top_sku",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/subscription_metrics",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/top_claimed_items",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/top_codes",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/top_items",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/top_measures",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/top_payment_methods",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/total_transaction_stat",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/total_usd",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/reports/transaction_stat_by_dates",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/rolling_offers",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/rolling_offers/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/rolling_offers/aaBBccDDeeFF/copy",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/rolling_offers/aaBBccDDeeFF/reset_state",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/sandbox",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/segment_groups",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/segment_groups/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/segment_groups/aaBBccDDeeFF/graph",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/segments",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/segments/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/sequential_offers",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/sequential_offers/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/sequential_offers/aaBBccDDeeFF/copy",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_graphs",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_graphs/graph",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_graphs/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_items",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_items/user/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_items/virtual/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_items/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_items/aaBBccDDeeFF/batch",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_items/aaBBccDDeeFF/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_promotions",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_promotions/count",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_promotions/user/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_promotions/user/aaBBccDDeeFF/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_promotions/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_promotions/aaBBccDDeeFF/copy",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/store_website_promotions",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/stores",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/stores/store/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/stores/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/stores/aaBBccDDeeFF/rotate",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/stores/aaBBccDDeeFF/stat",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/subscriptions",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/subscriptions/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/articles/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/campaigns/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/daily_rewards/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/items/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/loyalty/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/news/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/offers/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/progression_programs/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/store_items/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/store_promotions/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/stores/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/website/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/transfer/website_promos/preview",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/translation_glossaries",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/translation_glossaries/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/translations",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/translations/object/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/translations/publish",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/translations/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/update_default_locale",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/user",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/user/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/user/aaBBccDDeeFF/authorize",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/user/aaBBccDDeeFF/full",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/user/aaBBccDDeeFF/gdpr-cleanup",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/user/aaBBccDDeeFF/progression_points/history",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/user/aaBBccDDeeFF/progression_points/issue",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/user/aaBBccDDeeFF/subscriptions",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/user/aaBBccDDeeFF/subscriptions/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/user_banners/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/user_banners/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/user_segments/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/virtual_currencies",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/virtual_currencies/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhook_logs/all/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhook_logs/order_log/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhook_logs/user_log/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhook_logs/aaBBccDDeeFF/aggregates",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhook_logs/aaBBccDDeeFF/latency",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhook_logs/aaBBccDDeeFF/resend/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhook_logs/aaBBccDDeeFF/total",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhook_logs/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhooks",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhooks/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhooks/aaBBccDDeeFF/check",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhooks/aaBBccDDeeFF/check_item",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhooks/aaBBccDDeeFF/check_player_verify",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/webhooks/aaBBccDDeeFF/reveal",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 404,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.not_found\",\"detail\":\"Website not found\",\"title\":\"Not Found\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF/cache",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF/card-templates",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF/card-templates/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF/check_publish_readiness",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF/create_builder_access_token",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF/create_exchange_token",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF/promos",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF/promos/count",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 404,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF/promos/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.not_found\",\"detail\":\"Website not found\",\"title\":\"Not Found\"}"
+ },
+ {
+  "status": 404,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF/theme",
+  "body": "{\"code\":\"http.not_found\",\"detail\":\"Website not found\",\"title\":\"Not Found\"}"
+ },
+ {
+  "status": 404,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF/theme/history",
+  "body": "{\"code\":\"http.not_found\",\"detail\":\"Website not found\",\"title\":\"Not Found\"}"
+ },
+ {
+  "status": 404,
+  "path": "/v1/companies/com_eGwBObdcIVz/games/gm_eGVcrwxCfOH/websites/aaBBccDDeeFF/theme/history/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.not_found\",\"detail\":\"Website not found\",\"title\":\"Not Found\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/invites",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/invites/aaBBccDDeeFF",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/invites/aaBBccDDeeFF/resend",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/members",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/members/aaBBccDDeeFF",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/payout_settings",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 405,
+  "path": "/v1/companies/com_eGwBObdcIVz/profiles/accept_agreements",
+  "body": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/profiles/me",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 403,
+  "path": "/v1/companies/com_eGwBObdcIVz/profiles/outdated_agreements",
+  "body": "{\"code\":\"http.forbidden\",\"detail\":\"Forbidden\",\"title\":\"Forbidden\"}"
+ },
+ {
+  "status": 404,
+  "path": "/v1/companies/com_eGwBObdcIVz/risk_profile",
+  "body": "{\"code\":\"http.not_found\",\"detail\":\"Not Found\",\"title\":\"Not Found\"}"
+ }
+]

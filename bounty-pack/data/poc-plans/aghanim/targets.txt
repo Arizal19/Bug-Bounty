@@ -1,0 +1,15 @@
+https://api.aghanim.com
+https://dashboard-api.aghanim.com
+https://my-api.aghanim.com
+https://pay-api.aghanim.com
+https://s2s-api.aghanim.com
+https://sdk-api.aghanim.com
+https://hub-api.aghanim.com
+https://hub-api-global.aghanim.com
+https://upload.aghanim.com
+https://events.aghanim.com
+https://events-web.aghanim.com
+https://dashboard.aghanim.com
+https://my.aghanim.com
+https://pay.aghanim.com
+https://aghanim.com

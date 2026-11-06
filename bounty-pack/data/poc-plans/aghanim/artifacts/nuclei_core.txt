@@ -1,0 +1,175 @@
+[dns-waf-detect:cloudflare] [dns] [info] aghanim.com
+[waf-detect:cloudflare] [http] [info] https://dashboard.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://dashboard-api.aghanim.com
+[waf-detect:cloudfront] [http] [info] https://pay.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://s2s-api.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://pay.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://upload.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://events-web.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://api.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://sdk-api.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://events.aghanim.com
+[waf-detect:cloudfront] [http] [info] https://my.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://hub-api-global.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://my.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://pay-api.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://my-api.aghanim.com
+[waf-detect:cloudflare] [http] [info] https://hub-api.aghanim.com
+[waf-detect:modsecurity] [http] [info] https://my.aghanim.com
+[cors-misconfig:arbitrary-origin] [http] [info] https://pay-api.aghanim.com [cors_origin="https://00rvhaghanim.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://events-web.aghanim.com [cors_origin="https://usgfaaghanim.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://sdk-api.aghanim.com [cors_origin="http://yer5oaghanim.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://hub-api-global.aghanim.com [cors_origin="https://9vyia.aghanim.com"]
+[cors-misconfig:arbitrary-origin] [http] [info] https://hub-api.aghanim.com [cors_origin="https://w9mb6.aghanim.com"]
+[csp-script-src-wildcard] [http] [info] https://my.aghanim.com
+[csp-script-src-wildcard] [http] [info] https://pay.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://aghanim.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://aghanim.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://aghanim.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://aghanim.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://aghanim.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://aghanim.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://api.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://api.aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://api.aghanim.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://api.aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://api.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://dashboard-api.aghanim.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://api.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://dashboard-api.aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://dashboard-api.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://api.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://dashboard-api.aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://dashboard-api.aghanim.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://dashboard-api.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://dashboard-api.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://upload.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://upload.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://upload.aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://upload.aghanim.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://upload.aghanim.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://upload.aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://upload.aghanim.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://upload.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://upload.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://dashboard.aghanim.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://dashboard.aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://dashboard.aghanim.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://dashboard.aghanim.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://dashboard.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://dashboard.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://dashboard.aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://dashboard.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://dashboard.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sdk-api.aghanim.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sdk-api.aghanim.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://my-api.aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://sdk-api.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://my-api.aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://events.aghanim.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sdk-api.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://my-api.aghanim.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://events.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://sdk-api.aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://my-api.aghanim.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://events.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sdk-api.aghanim.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://my-api.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://events.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://sdk-api.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:content-security-policy] [http] [info] https://my-api.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://events.aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://my-api.aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://events.aghanim.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://my-api.aghanim.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://events.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://my-api.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:content-security-policy] [http] [info] https://events.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://events.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://my.aghanim.com/en
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://my.aghanim.com/en
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://my.aghanim.com/en
+[http-missing-security-headers:permissions-policy] [http] [info] https://my.aghanim.com/en
+[http-missing-security-headers:x-frame-options] [http] [info] https://my.aghanim.com/en
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://my.aghanim.com/en
+[http-missing-security-headers:referrer-policy] [http] [info] https://my.aghanim.com/en
+[weak-hsts-detect:hsts-header] [http] [info] https://my.aghanim.com/en ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://my.aghanim.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://my.aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://my.aghanim.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://my.aghanim.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://my.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://my.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://my.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://my.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://hub-api-global.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://hub-api-global.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://hub-api-global.aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://hub-api-global.aghanim.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://hub-api-global.aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://hub-api-global.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://hub-api-global.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:permissions-policy] [http] [info] https://pay.aghanim.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://pay.aghanim.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pay.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://pay.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pay.aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pay.aghanim.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pay.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://pay.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:permissions-policy] [http] [info] https://s2s-api.aghanim.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://s2s-api.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://s2s-api.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://s2s-api.aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://s2s-api.aghanim.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://s2s-api.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://s2s-api.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pay-api.aghanim.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://pay-api.aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://pay-api.aghanim.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://pay-api.aghanim.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pay-api.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://pay-api.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pay-api.aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pay-api.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://hub-api.aghanim.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://events-web.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://pay-api.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://hub-api.aghanim.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://events-web.aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://hub-api.aghanim.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://events-web.aghanim.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://hub-api.aghanim.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://events-web.aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://hub-api.aghanim.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://events-web.aghanim.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://events-web.aghanim.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://hub-api.aghanim.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://events-web.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://hub-api.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://events-web.aghanim.com
+[weak-hsts-detect:hsts-header] [http] [info] https://events-web.aghanim.com ["max-age=15552000; includeSubDomains; preload"]
+[posthog-rum-detect] [http] [info] https://dashboard.aghanim.com
+[missing-sri] [http] [info] https://dashboard.aghanim.com/ ["https://app.termly.io/resource-blocker/b17bd80f-e340-4bde-980b-21391cc6f94d?autoBlock=on"]
+[missing-sri] [http] [info] https://my.aghanim.com/en ["https://my.aghanim.com/_next/static/chunks/19mx3mg6lkumu.js","https://my.aghanim.com/_next/static/chunks/1g9meqgqap7it.js","https://my.aghanim.com/_next/static/chunks/2z-e6jheq0ftu.js","https://my.aghanim.com/_next/static/chunks/2s1fo-7ev9okm.js","https://my.aghanim.com/_next/static/chunks/0q6hykcd4u9up.js","https://my.aghanim.com/_next/static/chunks/29rjrwo_r05c7.js","https://my.aghanim.com/_next/static/chunks/19xaprnyw-ghg.js","https://my.aghanim.com/_next/static/chunks/18dg-584h8z7u.js","https://my.aghanim.com/_next/static/chunks/0buv75q01vef4.js","https://my.aghanim.com/_next/static/chunks/1d4_lznwboydx.js","https://my.aghanim.com/_next/static/chunks/0jvhpaew_uadu.js","https://my.aghanim.com/_next/static/chunks/turbopack-0_n9pq3yy6o23.js","https://my.aghanim.com/_next/static/chunks/3fntmmi971322.js","https://my.aghanim.com/_next/static/chunks/1124rm4_he1x6.js","https://my.aghanim.com/_next/static/chunks/1wo0bvead8_8z.js","https://my.aghanim.com/_next/static/chunks/01qwrhlcyj_li.js","https://my.aghanim.com/_next/static/chunks/1dh59nmzqomzq.js","https://my.aghanim.com/_next/static/chunks/0pyycs6f098mr.js","https://my.aghanim.com/_next/static/chunks/1qhafsei-cubx.js","https://my.aghanim.com/_next/static/chunks/0dgzegl3d3iyd.js","https://my.aghanim.com/_next/static/chunks/0cz1d0mv5g_q7.js","https://my.aghanim.com/_next/static/chunks/3-uwn7t_opoyx.css","https://my.aghanim.com/_next/static/chunks/2r-6o1-u0j--b.css","https://my.aghanim.com/_next/static/chunks/1wfju7091gaz0.css"]
+[tech-detect:cloudflare] [http] [info] https://upload.aghanim.com
+[tech-detect:cloudflare] [http] [info] https://s2s-api.aghanim.com
+[tech-detect:cloudflare] [http] [info] https://sdk-api.aghanim.com
+[tech-detect:cloudflare] [http] [info] https://api.aghanim.com
+[tech-detect:cloudflare] [http] [info] https://hub-api.aghanim.com
+[tech-detect:cloudflare] [http] [info] https://my-api.aghanim.com
+[tech-detect:cloudflare] [http] [info] https://events-web.aghanim.com
+[tech-detect:cloudflare] [http] [info] https://dashboard-api.aghanim.com
+[tech-detect:cloudflare] [http] [info] https://hub-api-global.aghanim.com
+[tech-detect:cloudflare] [http] [info] https://events.aghanim.com
+[tech-detect:cloudflare] [http] [info] https://pay-api.aghanim.com
+[tech-detect:cloudflare] [http] [info] https://dashboard.aghanim.com
+[tech-detect:cloudflare] [http] [info] https://pay.aghanim.com
+[tech-detect:astro] [http] [info] https://aghanim.com
+[tech-detect:cloudflare] [http] [info] https://my.aghanim.com/en
+[tech-detect:react] [http] [info] https://my.aghanim.com/en
+[tech-detect:cloudflare] [http] [info] https://my.aghanim.com

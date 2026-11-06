@@ -1,0 +1,1932 @@
+[
+ {
+  "t": "The evolution of Bug Bounty: history, best practices and the impact of AI",
+  "u": "https://www.yeswehack.com/en/blog/evolution-bug-bounty-impact-ai",
+  "d": ""
+ },
+ {
+  "t": "Pentests are dead. Long live pentests.",
+  "u": "https://www.yeswehack.com/en/blog/pentests-are-dead",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #54 Highscore solution",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-solution-54",
+  "d": ""
+ },
+ {
+  "t": "‘People think I’m all about automation, but I only automate recon’: how rabhi became our all-time #1 Bug Bounty hunter",
+  "u": "https://www.yeswehack.com/en/blog/automation-recon-rabhi",
+  "d": ""
+ },
+ {
+  "t": "Is AI pentesting safe?",
+  "u": "https://www.yeswehack.com/en/blog/is-ai-pentesting-safe",
+  "d": ""
+ },
+ {
+  "t": "How to use Gemini CLI for Bug Bounty research: analyse evidence, validate manually",
+  "u": "https://www.yeswehack.com/en/blog/llm-series-gemini",
+  "d": ""
+ },
+ {
+  "t": "EU Cyber Resilience Act: Manufacturers face 24-hour deadline to report actively exploited vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/cyber-resilience-act-24-hour",
+  "d": ""
+ },
+ {
+  "t": "Cache key injection: Smuggling poison through the door",
+  "u": "https://www.yeswehack.com/en/blog/research-cache-key-injection",
+  "d": ""
+ },
+ {
+  "t": "James Kettle’s ‘autonomous research cascade’, CRLF-powered desync attacks, RCE on humanoid robots – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/kettle-ai-innovation-crlf-robots",
+  "d": ""
+ },
+ {
+  "t": "‘I usually choose targets that offer value to society’: krevetk0 on his principled approach to Bug Bounty hunting",
+  "u": "https://www.yeswehack.com/en/blog/targets-value-society-krevetk0-principled",
+  "d": ""
+ },
+ {
+  "t": "CVE-2023-54391 and beyond: excavating silent patches and the attacker-defender information gap",
+  "u": "https://www.yeswehack.com/en/blog/cve-2023-54391-silent-patches",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack joins G-Cloud framework for UK public-sector procurement after clearing rigorous evaluation",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-g-cloud-framework",
+  "d": ""
+ },
+ {
+  "t": "How to use Codex for Bug Bounty research: explore broadly, validate rigorously",
+  "u": "https://www.yeswehack.com/en/blog/llm-series-codex",
+  "d": ""
+ },
+ {
+  "t": "‘Having humans in the loop’: Crédit Agricole Personal Finance & Mobility on the value of Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/humans-loop-credit-agricole",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #53 Hacker Club solution",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-solution-53",
+  "d": ""
+ },
+ {
+  "t": "Write triager-grade Bug Bounty reports with Claude Code: introducing the YesWeHack Claude Kit plugin",
+  "u": "https://www.yeswehack.com/en/blog/triager-grade-reports-claude-code",
+  "d": ""
+ },
+ {
+  "t": "One-upmanship on sandbox escapes, record-breaking Patch Tuesdays, the next evolution in pentesting – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/sandbox-escapes-patch-tuesdays-pentesting",
+  "d": ""
+ },
+ {
+  "t": "The OffSec challenge that hobbles security teams",
+  "u": "https://www.yeswehack.com/en/blog/centralise-offsec-program",
+  "d": ""
+ },
+ {
+  "t": "PimpMyCaido #1: Hunt client-side vulnerabilities with DOMLogger++",
+  "u": "https://www.yeswehack.com/en/blog/pimpmycaido-domloggerpp-caido-extension",
+  "d": ""
+ },
+ {
+  "t": "Testing AI-powered systems at scale via Bug Bounty, part 3: the guardrails",
+  "u": "https://www.yeswehack.com/en/blog/testing-ai-guardrails",
+  "d": ""
+ },
+ {
+  "t": "‘One challenging thing about Bug Bounty is when it’s black box’: sunshinefactory on bug hunting, CTFs and hardware hacking",
+  "u": "https://www.yeswehack.com/en/blog/black-box-sunshinefactory-ctfs-hardware",
+  "d": ""
+ },
+ {
+  "t": "Rickrolling the World Cup, unleashing AI across Google, 0-click stored XSS on Next.js – ethical hacker roundup",
+  "u": "https://www.yeswehack.com/en/blog/rickrolling-fifa-ai-google-xss",
+  "d": ""
+ },
+ {
+  "t": "How to use Claude Code for Bug Bounty: find fast, validate manually",
+  "u": "https://www.yeswehack.com/en/blog/llm-series-claude",
+  "d": ""
+ },
+ {
+  "t": "‘Threats that matter’: Zello on Bug Bounty and uncovering real-world risk",
+  "u": "https://www.yeswehack.com/en/blog/threats-zello-real-world-risk",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #52 Streamcore solution",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-solution-52",
+  "d": ""
+ },
+ {
+  "t": "Testing AI-powered systems at scale via Bug Bounty, part 2: AI-specific vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/testing-ai-scale-ai-vulnerabilities",
+  "d": ""
+ },
+ {
+  "t": "This is why your exposure window is too long",
+  "u": "https://www.yeswehack.com/en/blog/close-exposure-window",
+  "d": "Here's how you can find the bottlenecks in your vulnerability management process, and start closing your exposure window."
+ },
+ {
+  "t": "PUMA live hacking event revisited: leHACK’s biggest Bug Bounty yet",
+  "u": "https://www.yeswehack.com/en/blog/puma-live-hacking-event",
+  "d": ""
+ },
+ {
+  "t": "Why offensive security and exposure management can't stay siloed in the AI era",
+  "u": "https://www.yeswehack.com/en/blog/offensive-security-exposure-management-siloed",
+  "d": ""
+ },
+ {
+  "t": "How LLMs are changing Bug Bounty: an interview with Icare",
+  "u": "https://www.yeswehack.com/en/blog/llms-bug-bounty-interview-icare",
+  "d": ""
+ },
+ {
+  "t": "Answer these 3 questions to uncover real CVE exposure",
+  "u": "https://www.yeswehack.com/en/blog/uncover-cve-exposure",
+  "d": "Drowning in CVEs? Learn how to cut through the noise, focus on real exposure risk with YesWeHack's Vulnpedia and CVE Alerts"
+ },
+ {
+  "t": "Don’t eat the ChocoPoCs! How vulnerability researchers were repeatedly targeted by trojanised exploits",
+  "u": "https://www.yeswehack.com/en/blog/chocopocs-vulnerability-researchers-trojanised-exploits",
+  "d": ""
+ },
+ {
+  "t": "How LLMs are changing Bug Bounty: An interview with Rhynorater",
+  "u": "https://www.yeswehack.com/en/blog/llms-bug-bounty-interview-rhynorater",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack launches Agentic Pentest for AI security testing",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-agentic-pentest",
+  "d": ""
+ },
+ {
+  "t": "Tip of the AIceberg, prioritising prioritisation in aviation, Anthropic forced to shut down latest models – offsec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/aiceberg-prioritisation-aviation-cve-backlog",
+  "d": ""
+ },
+ {
+  "t": "Hacking in the age of AI: LLMs, agentic CLIs and MCP servers for Bug Bounty hunters",
+  "u": "https://www.yeswehack.com/en/blog/llm-bug-bounty-hunting-agentic-cli",
+  "d": ""
+ },
+ {
+  "t": "‘I found a CSRF and could deploy code through an enterprise’s App Store account’: yassine_eal’s Bug Bounty story",
+  "u": "https://www.yeswehack.com/en/blog/csrf-app-store-yassine-eal",
+  "d": ""
+ },
+ {
+  "t": "CVE-2026-48907: Unauthenticated RCE in the Joomla Content Editor extension",
+  "u": "https://www.yeswehack.com/en/blog/rce-joomla-content-editor-extension",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack is now available in AWS Marketplace",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-aws-marketplace-easier-access",
+  "d": ""
+ },
+ {
+  "t": "What to do when your CEO asks, ‘Are we exposed?’",
+  "u": "https://www.yeswehack.com/en/blog/speed-validation-exposed",
+  "d": "Understanding whether your organisation is exposed to a new vulnerability requires two things: speed and validation"
+ },
+ {
+  "t": "Dojo challenge #51 Deadbolt solution",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-solution-51",
+  "d": ""
+ },
+ {
+  "t": "The prioritisation problem: dealing with a growing vulnerability backlog",
+  "u": "https://www.yeswehack.com/en/blog/prioritisation-problem-growing-vulnerability-backlog",
+  "d": ""
+ },
+ {
+  "t": "How LLMs are changing Bug Bounty: An interview with Aituglo",
+  "u": "https://www.yeswehack.com/en/blog/llms-bug-bounty-interview-aituglo",
+  "d": ""
+ },
+ {
+  "t": "‘Delivered exactly what we hoped for’: How TeamViewer built a successful Bug Bounty Program",
+  "u": "https://www.yeswehack.com/en/blog/delivered-teamviewer-successful-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "They said AI would kill Bug Bounty. The data says otherwise",
+  "u": "https://www.yeswehack.com/en/blog/ai-makes-bug-bounty-better",
+  "d": ""
+ },
+ {
+  "t": "‘You have to be curious to do this job’: SpawnZii on balancing Bug Bounty with pentesting",
+  "u": "https://www.yeswehack.com/en/blog/curious-spawnzii-balancing-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "CVE-2026-9082: PostgreSQL SQL Injection in Drupal",
+  "u": "https://www.yeswehack.com/en/blog/cve-2026-9082-postgresql-drupal",
+  "d": ""
+ },
+ {
+  "t": "Testing AI-powered systems at scale via Bug Bounty, part 1: traditional infrastructure",
+  "u": "https://www.yeswehack.com/en/blog/testing-ai-scale-traditional-infrastructure",
+  "d": ""
+ },
+ {
+  "t": "Scaling Bug Bounty triage in the AI era",
+  "u": "https://www.yeswehack.com/en/blog/scaling-bug-bounty-triage-ai",
+  "d": ""
+ },
+ {
+  "t": "‘AI a force multiplier not a replacement’, small vs large models, the state of vibe-coded security – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/ai-force-multiplier-small-large",
+  "d": ""
+ },
+ {
+  "t": "Cybersecurity in a world of AI-accelerated offence: How YesWeHack implements Anthropic’s prescriptions",
+  "u": "https://www.yeswehack.com/en/blog/ai-accelerated-offence-yeswehack-anthropic",
+  "d": ""
+ },
+ {
+  "t": "Server-side request forgery: The ultimate Bug Bounty guide to exploiting SSRF vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/server-side-request-forgery-ssrf",
+  "d": ""
+ },
+ {
+  "t": "‘Bug Bounty perfectly aligns with DORA requirements’: EU fintech Sogexia reaps benefits of continuous testing",
+  "u": "https://www.yeswehack.com/en/blog/bug-bounty-dora-fintech-sogexia",
+  "d": ""
+ },
+ {
+  "t": "COST, AI frontier models and more: A measured take on the future of security testing",
+  "u": "https://www.yeswehack.com/en/blog/cost-mythos-future-security-testing",
+  "d": ""
+ },
+ {
+  "t": "Validation: Your path to overcoming alert fatigue in vulnerability management",
+  "u": "https://www.yeswehack.com/en/blog/validation-path-alert-fatigue-vulnerability",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #50 Bucket Vault solution",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-solution-50",
+  "d": ""
+ },
+ {
+  "t": "The Mythos moment, accelerating exploits, CVE Program under pressure – offsec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/mythos-moment-accelerating-exploits-cve",
+  "d": ""
+ },
+ {
+  "t": "‘When we ask for help, it’s instant’: Banco Galicia on expanding vulnerability discovery and speeding up remediation",
+  "u": "https://www.yeswehack.com/en/blog/instant-banco-galicia-vulnerability-remediation",
+  "d": ""
+ },
+ {
+  "t": "The ultimate Bug Bounty guide to OS command injection vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/ultimate-guide-os-command-injection",
+  "d": ""
+ },
+ {
+  "t": "Critical auth bypass in WordPress Azure AD SSO plugin due to missing OIDC id_token validation",
+  "u": "https://www.yeswehack.com/en/blog/auth-bypass-wordpress-azure-plugin",
+  "d": ""
+ },
+ {
+  "t": "‘Being a developer before, I know where to find bugs’: Aituglo’s Bug Bounty story so far",
+  "u": "https://www.yeswehack.com/en/blog/developer-aituglo-bug-bounty-story",
+  "d": ""
+ },
+ {
+  "t": "Map, test, fix, comply: unveiling our unified approach to offensive security",
+  "u": "https://www.yeswehack.com/en/blog/map-test-fix-comply-unified",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #49 Secret Manager solution",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-solution-49",
+  "d": ""
+ },
+ {
+  "t": "Continuous Pentesting with zero false positives: a fully managed, platform-driven approach",
+  "u": "https://www.yeswehack.com/en/blog/continuous-pentesting-zero-false-positives",
+  "d": ""
+ },
+ {
+  "t": "Open-source security testing: the Bug Bounty guide to code analysis",
+  "u": "https://www.yeswehack.com/en/blog/open-source-guide-code-analysis",
+  "d": ""
+ },
+ {
+  "t": "Introducing Exposure Management: identify actively exploited vulnerabilities across your attack surface",
+  "u": "https://www.yeswehack.com/en/blog/introducing-autonomous-pentest-identify-vulnerabilities",
+  "d": ""
+ },
+ {
+  "t": "‘We must learn how to use AI’: Wlayzz on future-proofing Bug Bounty and how a duplicate became his favourite discovery",
+  "u": "https://www.yeswehack.com/en/blog/use-ai-wlayzz-future-proofing",
+  "d": ""
+ },
+ {
+  "t": "Python pitfalls: Turning developer mistakes into vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/python-pitfalls-turning-developer-mistakes",
+  "d": ""
+ },
+ {
+  "t": "Notepad++ hijack, pwning Claude Code, top web hacking techniques of 2025 – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/notepad-hijack-pwn-claude-code",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #48 RubitMQ solution",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-solution-48",
+  "d": ""
+ },
+ {
+  "t": "LLM bug hunters lack intuition, ‘security teams will consolidate visibility’ in 2026, EU Cyber Act vuln disclosure revisions – offsec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/llm-hunters-visibility-cyber-act",
+  "d": ""
+ },
+ {
+  "t": "XML external entity: The ultimate Bug Bounty guide to exploiting XXE vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/xml-external-entity-guide-xxe",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack report 2026: the trends, insights and strategic shifts shaping offensive security",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-report-2026-trends-security",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #47 APICrash solution",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-solution-47",
+  "d": ""
+ },
+ {
+  "t": "‘A fraction of the pentest cost’: Lessons from an Asian telco’s Bug Bounty success",
+  "u": "https://www.yeswehack.com/en/blog/fraction-pentest-asia-telco-story",
+  "d": ""
+ },
+ {
+  "t": "World Poker Tour and the Curry-Shah collab, in-flight exploits, does maths maketh the hunter? – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/poker-curry-maths-maketh-hunter",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #46 Ghost whisper solution",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-solution-46",
+  "d": ""
+ },
+ {
+  "t": "Android recon for Bug Bounty hunters: A complete guide from APK extraction to mapping attack surfaces",
+  "u": "https://www.yeswehack.com/en/blog/android-recon-bug-bounty-guide",
+  "d": ""
+ },
+ {
+  "t": "‘Bug Bounty helps us meet regulatory requirements ahead of time’: payments provider KOMOJU",
+  "u": "https://www.yeswehack.com/en/blog/bounty-regulatory-payments-provider-komoju",
+  "d": ""
+ },
+ {
+  "t": "Cyber budgets still growing (but not fast enough), ‘AI and automation are operational imperatives’, the real-world impact of boosting Bug Bounty rewards – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/cyber-budgets-ai-automation-rewards-volume",
+  "d": ""
+ },
+ {
+  "t": "The ultimate Bug Bounty guide to HTTP request smuggling vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/http-request-smuggling-guide-vulnerabilities",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #45 Chainfection solution",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-solution-45",
+  "d": ""
+ },
+ {
+  "t": "MINDEF Launches Next Bug Bounty Programme with YesWeHack",
+  "u": "https://www.yeswehack.com/en/blog/mindef-launches-next-bug-bounty-programme-with-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "Continuous threat exposure management series #4: Supercharging CTEM with Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/continuous-supercharging-ctem-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "The minefield between syntaxes: exploiting syntax confusions in the wild",
+  "u": "https://www.yeswehack.com/en/blog/syntax-confusion-ambiguous-parsing-exploits",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack marks first year of Bug Bounty partnership with Singapore government",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-marks-first-year-of-partnership-with-singapore-government-bug-bounty-programmes",
+  "d": ""
+ },
+ {
+  "t": "How to find SSTI, cache poisoning, business logic vulnerabilities: methodology tips from top Bug Bounty hunters",
+  "u": "https://www.yeswehack.com/en/blog/ssti-cache-poisoning-logic-vulnerabilities",
+  "d": ""
+ },
+ {
+  "t": "Why ‘HTTP/1.1 must die’, Intel exploits, C# Random hack with no maths – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/http-1-intel-exploits-random",
+  "d": ""
+ },
+ {
+  "t": "European Commission’s latest Bug Bounty tender won by YesWeHack",
+  "u": "https://www.yeswehack.com/en/blog/european-commission-tender-won-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "Concurrency exploits: The ultimate Bug Bounty guide to exploiting race condition vulnerabilities in web applications",
+  "u": "https://www.yeswehack.com/en/blog/ultimate-guide-race-condition-vulnerabilities",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #44 Hardware monitor write-up",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-44",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack authorised as a CVE Numbering Authority (CNA)",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-authorised-cve-numbering-authority",
+  "d": ""
+ },
+ {
+  "t": "‘The unpredictability and creativity of actual threat actors’: Energy giant NOV reaps the rewards of Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/threat-actors-energy-nov-rewards",
+  "d": ""
+ },
+ {
+  "t": "The rabhi route to root: Our all-time #1 hunter shares his Bug Bounty blueprint",
+  "u": "https://www.yeswehack.com/en/blog/rabhi-root-bug-bounty-blueprint",
+  "d": ""
+ },
+ {
+  "t": "Cross-site request forgery: The ultimate Bug Bounty guide to exploiting CSRF vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/ultimate-guide-csrf-vulnerabilities",
+  "d": ""
+ },
+ {
+  "t": "‘We wanted a lot of researchers testing our scope’: Entrust’s experience scaling a Bug Bounty Program",
+  "u": "https://www.yeswehack.com/en/blog/testing-scope-entrust-scaling-program",
+  "d": ""
+ },
+ {
+  "t": "US court ruling on Uber breach slammed, red teamers cautious on AI, OffSec offers ‘strategic edge’ – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/us-ruling-uber-offsec-edge",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack completes first-ever acquisition with purchase of Sekost, French cybersecurity audit specialist",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-completes-first-acquisition-sekost",
+  "d": ""
+ },
+ {
+  "t": "Putting the ‘success’ into Bug Bounty customer success management: Meet our head of CSM",
+  "u": "https://www.yeswehack.com/en/blog/customer-success-management-head-csm",
+  "d": ""
+ },
+ {
+  "t": "Building an Android Bug Bounty lab: the ultimate guide to configuring emulators, real devices, proxies and other mobile hacking tools (featuring Magisk, Burp, Frida)",
+  "u": "https://www.yeswehack.com/en/blog/android-lab-mobile-hacking-tools",
+  "d": ""
+ },
+ {
+  "t": "Nonce CSP bypass using disk cache, ‘quiet side channel’ for request smuggling, Amazon Q and the malicious pull request – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/csp-bypass-smuggling-amazon-q",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #43 CCTV Manager winners & writeup",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-43",
+  "d": ""
+ },
+ {
+  "t": "SQLi: The ultimate Bug Bounty guide to exploiting SQL injection vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/vulnerability-vectors-sql-injection",
+  "d": ""
+ },
+ {
+  "t": "‘It was a revelation’: lemonoftroy’s origin story and hacking methodology",
+  "u": "https://www.yeswehack.com/en/blog/revelation-lemonoftroy-origin-story-hacking",
+  "d": ""
+ },
+ {
+  "t": "Continuous threat exposure management (CTEM) series #3: mobilisation and remediation",
+  "u": "https://www.yeswehack.com/en/blog/ctem-series-mobilisation-remediation",
+  "d": ""
+ },
+ {
+  "t": "‘I have the patience to spend long hours hacking through the night’: g4mb4 on his Bug Bounty career so far",
+  "u": "https://www.yeswehack.com/en/blog/patience-hacking-g4mb4-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "‘The most challenging part is the psychological one’ – leorac on the ups and downs of Bug Bounty hunting",
+  "u": "https://www.yeswehack.com/en/blog/challenging-psychological-leorac-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #42 - Hex Color Palette winners & writeup",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-42",
+  "d": ""
+ },
+ {
+  "t": "Recon series recap: The ultimate guide to Bug Bounty reconnaissance and footprinting",
+  "u": "https://www.yeswehack.com/en/blog/recon-series-recap-reconnaissance-footprinting",
+  "d": ""
+ },
+ {
+  "t": "Chunked-body parsing flaws, making self-XSS great again, using HTTP redirect loops to achieve non-blind SSRFs – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/chunked-parsing-self-xss-http",
+  "d": ""
+ },
+ {
+  "t": "‘Bug Bounty has become a security best practice’: Why Ferrero is sweet on crowdsourced testing",
+  "u": "https://www.yeswehack.com/en/blog/security-best-practice-ferrero-crowdsourced",
+  "d": ""
+ },
+ {
+  "t": "‘Feeling close to a critical vulnerability is incredibly addictive’ – YouTuber gregxsunday on the joys of Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/incredibly-addictive-gregxsunday-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "OpenAI VDP for bugs found by AI, CVE funding fears persist, ‘shift left’ towards vulnerability overload – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/openai-vdp-cve-shift-left",
+  "d": ""
+ },
+ {
+  "t": "Flashback to the L’Oréal Live Bug Bounty: Watch last year’s highlights as anticipation builds for leHACK 2025",
+  "u": "https://www.yeswehack.com/en/blog/flashback-loréal-bug-bounty-lehack-2025",
+  "d": ""
+ },
+ {
+  "t": "YesWeCaido: a new Caido plugin for tracking Bug Bounty Programs",
+  "u": "https://www.yeswehack.com/en/blog/yeswecaido-plugin-bug-bounty-programs",
+  "d": ""
+ },
+ {
+  "t": "Ultimate double-clickjacking exploit, novel HTTP/2 request tunnelling techniques, when encryption makes matters worse – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/double-clickjacking-request-tunnelling-encryption",
+  "d": ""
+ },
+ {
+  "t": "‘Valuable for fast-growing, frequently updated platforms’: Gong OffSec lead on the merits of continuous, crowdsourced security testing",
+  "u": "https://www.yeswehack.com/en/blog/gong-offsec-lead-crowdsourced-security",
+  "d": ""
+ },
+ {
+  "t": "‘AI slop’ bug reports and outsourcing triage, OpenPGP.js signature-spoofing bug, race to combat zero-day exploits – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/ai-slop-openpgp-zero-day",
+  "d": ""
+ },
+ {
+  "t": "Recon Series #6: Excavating hidden artifacts with Wayback Machine and other web-archive tools",
+  "u": "https://www.yeswehack.com/en/blog/recon-wayback-machine-web-archive",
+  "d": ""
+ },
+ {
+  "t": "Critical signature-spoofing vulnerability in OpenPGP.js hits the headlines",
+  "u": "https://www.yeswehack.com/en/blog/critical-signature-spoofing-vulnerability-openpgpjs",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #41 - Ruby treasure winners & writeup",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-41",
+  "d": ""
+ },
+ {
+  "t": "Recon series #5: A hacker’s guide to Google dorking",
+  "u": "https://www.yeswehack.com/en/blog/recon-hackers-guide-google-dorking",
+  "d": ""
+ },
+ {
+  "t": "Continuous threat exposure management (CTEM) series #2: vulnerability prioritisation and validation",
+  "u": "https://www.yeswehack.com/en/blog/vulnerability-prioritisation-validation-ctem-2",
+  "d": ""
+ },
+ {
+  "t": "‘Airborne’ AirPlay attacks, netting $64k from deleted files, triaging AI slop – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/airborne-airplay-deleted-files-slop",
+  "d": ""
+ },
+ {
+  "t": "Beyond ‘../../’ - a practical guide to path traversal and arbitrary file read attacks",
+  "u": "https://www.yeswehack.com/en/blog/practical-guide-path-traversal-attacks",
+  "d": ""
+ },
+ {
+  "t": "Tackling vulnerabilities at source: How to cut the rising cost of DevSecOps",
+  "u": "https://www.yeswehack.com/en/blog/tackling-vulnerabilities-source-cost-devsecops",
+  "d": ""
+ },
+ {
+  "t": "UK retail cyber-attacks a ‘wake-up call’, SaaS overreliance ‘creating single points of failure’, calls for global regulatory alignment – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/uk-retail-attacks-saas-overreliance",
+  "d": ""
+ },
+ {
+  "t": "Middleware mayhem, Zoolander banter PoC, Malta to pardon hackers over ‘unfair’ charges – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/middleware-mayhem-zoolander-malta",
+  "d": ""
+ },
+ {
+  "t": "New Dojo sandbox environment for creating Ruby CTF challenges",
+  "u": "https://www.yeswehack.com/en/blog/dojo-sandbox-ruby-ctf-challenges",
+  "d": ""
+ },
+ {
+  "t": "Recon series #4: Port scanning – uncovering attack vectors by revealing open ports and hidden services",
+  "u": "https://www.yeswehack.com/en/blog/recon-port-scanning-attack-vectors",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #40 - Hacker profile winners & writeup",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-40",
+  "d": ""
+ },
+ {
+  "t": "‘Continuous testing and a real-time understanding of my threat exposure’ – Ooredoo exec on the benefits of Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/continuous-testing-threat-exposure-ooredoo",
+  "d": ""
+ },
+ {
+  "t": "UK publishes proposals for NIS 2-equivalent Cyber Security and Resilience Bill",
+  "u": "https://www.yeswehack.com/en/blog/uk-proposals-nis-resilience-bill",
+  "d": ""
+ },
+ {
+  "t": "HTTP header hacks: basic and advanced exploit techniques explored",
+  "u": "https://www.yeswehack.com/en/blog/http-header-exploitation",
+  "d": ""
+ },
+ {
+  "t": "Spyware pact draws distinction between malicious and legitimate use of cyber-intrusion tools",
+  "u": "https://www.yeswehack.com/en/blog/spyware-pact-malicious-legitimate-use",
+  "d": ""
+ },
+ {
+  "t": "Hacking GraphQL endpoints with introspection, query, mutation, batching attacks",
+  "u": "https://www.yeswehack.com/en/blog/hacking-graphql-endpoints",
+  "d": ""
+ },
+ {
+  "t": "EUCC cyber certification scheme enters early adopter phase after vulnerability disclosure rules issued",
+  "u": "https://www.yeswehack.com/en/blog/eucc-certification-scheme-early-adopter",
+  "d": ""
+ },
+ {
+  "t": "The art of payload obfuscation: how to mask malicious scripts and bypass defence mechanisms",
+  "u": "https://www.yeswehack.com/en/blog/payload-obfuscation-techniques-guide",
+  "d": ""
+ },
+ {
+  "t": "Limitations are just an illusion – advanced server-side template exploitation with RCE everywhere",
+  "u": "https://www.yeswehack.com/en/blog/server-side-template-injection-exploitation",
+  "d": ""
+ },
+ {
+  "t": "YouTube email leak exploit, Great ‘Wallbleed’ of China, Burp’s overlooked ‘best feature’ – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/youtube-wallbleed-burp-hacker-roundup",
+  "d": ""
+ },
+ {
+  "t": "Mitigating AI cybersecurity risks with Bug Bounty Programs: A deep dive",
+  "u": "https://www.yeswehack.com/en/blog/ai-cybersecurity-risks-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "Recon series #3: HTTP fingerprinting – sleuthing for a web application’s hidden vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/recon-series-http-fingerprinting",
+  "d": ""
+ },
+ {
+  "t": "US House passes bill mandating vulnerability disclosure policies for federal contractors",
+  "u": "https://www.yeswehack.com/en/blog/us-house-bill-vulnerability-disclosure",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #39 - Phishing winners & writeup",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-39",
+  "d": ""
+ },
+ {
+  "t": "Junior devs ‘can’t actually code’, AI coding risks, security researchers decry inscrutable AI – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/devs-ai-coding-risks-researchers-decry",
+  "d": ""
+ },
+ {
+  "t": "Recon Series #2: Subdomain enumeration – expand attack surfaces with active, passive techniques",
+  "u": "https://www.yeswehack.com/en/blog/subdomain-enumeration-expand-attack-surface",
+  "d": ""
+ },
+ {
+  "t": "Bounty Grid Boost: Ethical Hackers Invited to Strengthen the Security of the French Government’s Digital Services",
+  "u": "https://www.yeswehack.com/en/blog/french-government-bounty-grid-boost",
+  "d": ""
+ },
+ {
+  "t": "Top web hacking techniques of 2024, McDelivery hijack, 4D SOTA jailbreak – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/web-hacking-techniques-mcdelivery-sota",
+  "d": ""
+ },
+ {
+  "t": "XSS attacks and exploitation: The ultimate guide to cross-site scripting",
+  "u": "https://www.yeswehack.com/en/blog/xss-attacks-exploitation-ultimate-guide",
+  "d": ""
+ },
+ {
+  "t": "Vulnerability management reboot sought, CISOs more influential in boardroom, Trump’s cyber overhaul – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/vulnerability-management-reboot-cisos-trump",
+  "d": ""
+ },
+ {
+  "t": "CVE surge: Why the record rise in new vulnerabilities?",
+  "u": "https://www.yeswehack.com/en/blog/cve-surge-record-jump-vulnerabilities",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #38 - Xmas wishlist, winners and writeup",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-38",
+  "d": ""
+ },
+ {
+  "t": "DORA now in force: 5 ways YesWeHack’s offensive security platform can bolster your Digital Operational Resilience Act compliance",
+  "u": "https://www.yeswehack.com/en/blog/dora-offensive-security-platform-compliance",
+  "d": ""
+ },
+ {
+  "t": "The YesWeHack Bug Bounty Report 2025",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-bug-bounty-report-2025",
+  "d": ""
+ },
+ {
+  "t": "Recon Series #1: Discovering and mapping hidden endpoints and parameters to expand attack surfaces",
+  "u": "https://www.yeswehack.com/en/blog/discover-map-hidden-endpoints-parameters",
+  "d": ""
+ },
+ {
+  "t": "‘There are a lot of vulnerabilities on public programs’: pwnii’s Bug Bounty journey so far",
+  "u": "https://www.yeswehack.com/en/blog/vulnerabilities-pwnii-bug-bounty-journey",
+  "d": ""
+ },
+ {
+  "t": "‘Hacking is essentially about curiosity’: Blaklis on the art and science of Bug Bounty hunting",
+  "u": "https://www.yeswehack.com/en/blog/blaklis-art-science-bug-bounty-hunting",
+  "d": ""
+ },
+ {
+  "t": "DOMPurify bypasses, prompt injecting ChatGPT to shell, AI fuzz finds – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/dompurify-bypasses-chatgpt-ai-fuzz",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #37 - Hacker Forum winners and writeup",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-37",
+  "d": ""
+ },
+ {
+  "t": "‘My best attribute is persistence – technical skills you can learn’: drak3hft7’s Bug Bounty story so far",
+  "u": "https://www.yeswehack.com/en/blog/attribute-persistence-drak3hft7-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "Clock ticking on Cyber Resilience Act compliance, Bug Bounty forecasts, intriguing CISA red team find – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/cra-compliance-bug-bounty-forecasts",
+  "d": ""
+ },
+ {
+  "t": "‘Collaboration helped me become successful’: Nagli on becoming a world-renowned Bug Bounty hunter",
+  "u": "https://www.yeswehack.com/en/blog/collaboration-nagli-bug-bounty-hunter",
+  "d": ""
+ },
+ {
+  "t": "PimpMyBurp #11 – Master Signed Token Exploits with SignSaboteur",
+  "u": "https://www.yeswehack.com/en/blog/pimpmyburp-signsaboteur-burpsuite-extension",
+  "d": ""
+ },
+ {
+  "t": "Cyber Resilience Act: compliance countdown set to start for EU law focused on eliminating vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/cyber-resilience-act-compliance-countdown",
+  "d": ""
+ },
+ {
+  "t": "Attack surface discovery: mapping your exposed vectors with continuous threat exposure management (CTEM series #1)",
+  "u": "https://www.yeswehack.com/en/blog/attack-surface-discovery-vectors-ctem",
+  "d": ""
+ },
+ {
+  "t": "New tool for finding mutated XSS, $20k Chromium sandbox escape, Live bug bounty results from Ekoparty – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/Mutated-xss-chromium-sandbox-ekoparty",
+  "d": ""
+ },
+ {
+  "t": "‘The collective knowledge ATG gets is huge’: cyber chief on Betting brand’s Bug Bounty story",
+  "u": "https://www.yeswehack.com/en/blog/collective-knowledge-atg-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "NIS 2 in force, Cyber Resilience Act adopted, CISA hails VDP impact – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/nis-2-cisa-vdp-offsec-cisos",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #36 - Shell Escape winners and writeup",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-36",
+  "d": ""
+ },
+ {
+  "t": "‘Happy hunters equal happy customers and vice versa’: YesWeHack vulnerability triage chief Adrien Jeanneau on creating a virtuous Bug Bounty circle",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-vulnerability-triage-adrien-jeanneau",
+  "d": ""
+ },
+ {
+  "t": "Dom-Explorer tool launched to reveal how browsers parse HTML and find mutated XSS vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/dom-explorer-tool-parse-html",
+  "d": ""
+ },
+ {
+  "t": "‘I like Android apps and open-source code’: HakuPiku on Bug Bounty, CTFs and his favourite targets",
+  "u": "https://www.yeswehack.com/en/blog/android-apps-hakupiku-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "‘More efficient than a pentest and it generates trust’: TeamViewer’s Bug Bounty story so far",
+  "u": "https://www.yeswehack.com/en/blog/efficient-pentest-teamviewer-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "White-box penetration testing: How to debug for JavaScript vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/white-box-debug-JavaScript-vulnerabilities",
+  "d": ""
+ },
+ {
+  "t": "Tackling tech sprawl, CISO burnout, NIS 2 now enforceable – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/tech-sprawl-nis-2-offsec-roundup",
+  "d": ""
+ },
+ {
+  "t": "The NIS 2 Directive is now enforceable: What are the implications for vulnerability management?",
+  "u": "https://www.yeswehack.com/en/blog/nis-2-directive-vulnerability-management",
+  "d": ""
+ },
+ {
+  "t": "Partial SolarWinds reprieve, CrowdStrike lessons, LLM kryptonite – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/solarwinds-crowdStrike-llm-ciso-roundup",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack and Ferrero inaugurate Italy’s first live hacking event",
+  "u": "https://www.yeswehack.com/en/blog/ferrero-live-hacking-event",
+  "d": ""
+ },
+ {
+  "t": "Top 5 hacking tools for white-box pentesting",
+  "u": "https://www.yeswehack.com/en/blog/5-tools-white-box-pentesting",
+  "d": ""
+ },
+ {
+  "t": "Web timing attacks, Apache HTTP confusion attacks, email parsing discrepancies – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/web-timing-attacks-http-server",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #35 winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-35",
+  "d": ""
+ },
+ {
+  "t": "NIS 2 in brief, security tech hype cycle, Italy’s first ever live Bug Bounty – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/nis-2-hype-cycle-italy",
+  "d": ""
+ },
+ {
+  "t": "White-box penetration testing: Debugging for Python vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/penetration-testing-debugging-python-vulnerabilities",
+  "d": ""
+ },
+ {
+  "t": "Hacking for €10k rewards and a secure open source ecosystem: Bug Bounty opportunities from the Sovereign Tech Fund",
+  "u": "https://www.yeswehack.com/en/blog/open-source-sovereign-tech-fund",
+  "d": ""
+ },
+ {
+  "t": "ORM leaks, CSRF is alive, lockpicking lessons – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/orm-leaks-csrf-hacker-roundup",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #34 winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-34",
+  "d": ""
+ },
+ {
+  "t": "Hack Me I’m Famous #2: Louis Vuitton sets trend with first live hacking event in luxury fashion sector",
+  "u": "https://www.yeswehack.com/en/blog/louis-vuitton-live-hacking-event",
+  "d": ""
+ },
+ {
+  "t": "White-box penetration testing with Xdebug: Debugging for PHP vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/white-box-penetration-testing-xdebug",
+  "d": ""
+ },
+ {
+  "t": "L'Oréal lauds live Bug Bounty success at LeHack 2024",
+  "u": "https://www.yeswehack.com/en/blog/loreal-live-hacking-event-lehack",
+  "d": ""
+ },
+ {
+  "t": "Sam Curry modem masterclass, PHP threat to Windows Servers, Calls for AI safety Bug Bounties – ethical hacker news roundup",
+  "u": "https://www.yeswehack.com/en/blog/sam-curry-php-hacker-roundup",
+  "d": ""
+ },
+ {
+  "t": "Critical infrastructure-level protections for YesWeHack cloud after switch to SecNumCloud-qualified service",
+  "u": "https://www.yeswehack.com/en/blog/critical-infrastructure-yeswehack-cloud-secnumcloud",
+  "d": ""
+ },
+ {
+  "t": "Apple declines to pay Kaspersky vuln reward, Bug Bounty ‘extortion’ dispute, Microsoft Recall backlash – OffSec roundup for CISOs",
+  "u": "https://www.yeswehack.com/en/blog/apple-kaspersky-microsoft-ciso-roundup",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #33 winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-33",
+  "d": ""
+ },
+ {
+  "t": "Countdown to NIS 2 compliance: Key insights and implications for your SecOps strategy",
+  "u": "https://www.yeswehack.com/en/blog/nis-2-ctem-vulnerability-compliance",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack lève 26 millions d'euros pour accélérer sa croissance et son expansion internationale",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-leve-26-million-d-euros-en-serie-C",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack raises 26 million euros to accelerate its growth and international expansion",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-fundraising-26-million-euros-series-C",
+  "d": ""
+ },
+ {
+  "t": "‘Our businesses are reassured that we’re protecting their activities’: Les Mousquetaires CISO on leveraging live hacking events",
+  "u": "https://www.yeswehack.com/en/blog/les-mousquetaires-ciso-hacking-events",
+  "d": ""
+ },
+ {
+  "t": "‘No cheaper way of getting security testing’: financial services Bug Bounty success story",
+  "u": "https://www.yeswehack.com/en/blog/security-testing-bug-bounty-financial",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #32 winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-32",
+  "d": ""
+ },
+ {
+  "t": "UK PSTI Act: ‘World first’ IoT security rules offer reminder of VDP virtues",
+  "u": "https://www.yeswehack.com/en/blog/Uk-psti-act-vdp-virtues",
+  "d": ""
+ },
+ {
+  "t": "‘An efficient way to uncover vulnerabilities’: Doctolib's five years in Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/doctolib-five-years-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "Bug Bounty hunters mount impressive sprint finish to Caisse des Dépôts marathon",
+  "u": "https://www.yeswehack.com/en/blog/bug-hunters-caisse-depots-marathon",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #31 winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners-31",
+  "d": ""
+ },
+ {
+  "t": "‘Hunters’ biggest mistake? Expecting immediate results’: ‘RL’ on building a Bug Bounty career",
+  "u": "https://www.yeswehack.com/en/blog/RL-building-bug-bounty-career",
+  "d": ""
+ },
+ {
+  "t": "‘Large amount of knowhow’: Why Thüringer Aufbaubank harnesses Bug Bounty to bolster customer trust",
+  "u": "https://www.yeswehack.com/en/blog/knowhow-bug-bounty-thuringer-aufbaubank",
+  "d": ""
+ },
+ {
+  "t": "‘I stay on targets for a long, long time’: Chackal and Serizao on passion, persistence and partnerships in Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/bug-bounty-targets-chackal-serizao",
+  "d": ""
+ },
+ {
+  "t": "Dojo challenge #30 winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-ctf-challenge-winners",
+  "d": ""
+ },
+ {
+  "t": "‘Adapt payloads to your targets’: Brumens’ Bug Bounty tips for newbies",
+  "u": "https://www.yeswehack.com/en/blog/brumens-bug-bounty-tips-newbies",
+  "d": ""
+ },
+ {
+  "t": "How to write an effective Bug Bounty report",
+  "u": "https://www.yeswehack.com/en/blog/write-effective-bug-bounty-reports",
+  "d": ""
+ },
+ {
+  "t": "‘Be curious, be persistent’: Icare on thriving as a Bug Bounty hunter",
+  "u": "https://www.yeswehack.com/en/blog/Icare-thriving-bug-bounty-hunter",
+  "d": ""
+ },
+ {
+  "t": "‘We opted for Bug Bounty for agility reasons’: European Community of Alsace CISO",
+  "u": "https://www.yeswehack.com/en/blog/bug-bounty-european-alsace-ciso",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack hunter achievements: Unveiling the Galactic Guardians series",
+  "u": "https://www.yeswehack.com/en/blog/new-hacker-achievements",
+  "d": ""
+ },
+ {
+  "t": "‘Proficiency takes time’: Xel on his best Bug Bounty finds and the primacy of patience in ethical hacking",
+  "u": "https://www.yeswehack.com/en/blog/Xel-ethical-hacking-interview-advice",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack unveils workflow-friendly revamp of user interface",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-workflow-friendly-user-interface",
+  "d": ""
+ },
+ {
+  "t": "‘The red team’s security skills have increased considerably’: Bug Bounty at Bancolombia",
+  "u": "https://www.yeswehack.com/en/blog/red-team-bancolombia-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "Smart Automation With Burp Suite",
+  "u": "https://www.yeswehack.com/en/blog/smart-automation-with-burp-suite",
+  "d": ""
+ },
+ {
+  "t": "‘The level of automation right now is crazy’: GoDiego on why post-auth vulnerabilities are the future of Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/automation-godiego-future-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "US SEC cyber rules, SolarWinds CISO charges: How a unified OffSec strategy can enhance your SEC disclosures",
+  "u": "https://www.yeswehack.com/en/blog/sec-cyber-rules-solarwinds-offsec",
+  "d": ""
+ },
+ {
+  "t": "Unveiling Dojo v2: Our new CTF and realistic challenge-building framework",
+  "u": "https://www.yeswehack.com/en/blog/unveiling-dojo-v2-our-new-ctf-and-realistic-challenge-building-framework",
+  "d": ""
+ },
+ {
+  "t": "'ROI is easy to justify’: Bug Bounty success story from a luxury goods retailer",
+  "u": "https://www.yeswehack.com/en/blog/bug-bounty-success-story-luxury-goods-retailer",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack announces CREST accreditation for pentesting services",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-crest-accreditation-pentesting-services",
+  "d": ""
+ },
+ {
+  "t": "Festive Dojo challenge #29: SantaLock winners revealed!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-29-santalock",
+  "d": ""
+ },
+ {
+  "t": "9 rules for a successful first-time Bug Bounty Program",
+  "u": "https://www.yeswehack.com/en/blog/9-rules-for-a-successful-first-time-bug-bounty-program",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack secures ISO/IEC 27017 certification to boost trust in our cloud-based services",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-iso-iec-27017-certification-cloud-trust",
+  "d": ""
+ },
+ {
+  "t": "\"Triage was world class\": Bug Bounty success story from risk-management giant DNV",
+  "u": "https://www.yeswehack.com/en/blog/triage-was-world-class-bug-bounty-success-story-from-risk-management-giant-dnv",
+  "d": ""
+ },
+ {
+  "t": "Introducing the YesWeHack Advent Calendar: 24 Days of Challenges and Festive Fun!",
+  "u": "https://www.yeswehack.com/en/blog/introducing-the-yeswehack-advent-calendar-24-days-of-challenges-and-festive-fun",
+  "d": ""
+ },
+ {
+  "t": "Busting Bug Bounty misconceptions",
+  "u": "https://www.yeswehack.com/en/blog/busting-bug-bounty-misconceptions",
+  "d": ""
+ },
+ {
+  "t": "How Bug Bounty and Attack Surface Management can help you comply with the Digital Operational Resilience Act’s upcoming requirements",
+  "u": "https://www.yeswehack.com/en/blog/how-bug-bounty-and-attack-surface-management-can-help-you-comply-with-the-digital-operational",
+  "d": ""
+ },
+ {
+  "t": "DOJO Challenge #28 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-28-winners",
+  "d": ""
+ },
+ {
+  "t": "Continuous Threat Exposure Management: Unify your Offsec Strategy with YesWeHack",
+  "u": "https://www.yeswehack.com/en/blog/continuous-threat-exposure-management-unify-your-offsec-strategy-with-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "‘YesWeHack adapted to our needs’: The Bug Bounty story so far for connected health pioneer Withings",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-bug-bounty-story-connected-health-pioneer-withings",
+  "d": ""
+ },
+ {
+  "t": "PimpMyBurp #10: Hackvertor – unleashing the power of Burp Suite",
+  "u": "https://www.yeswehack.com/en/blog/pimpmyburp-10-Hackvertor",
+  "d": ""
+ },
+ {
+  "t": "DOJO Challenge #27 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-27-winners",
+  "d": ""
+ },
+ {
+  "t": "Firefly v1.1.0: A smart black-box fuzzer for testing web applications",
+  "u": "https://www.yeswehack.com/en/blog/firefly-v1-1-0-a-smart-black-box-fuzzer-for-testing-web-applications",
+  "d": ""
+ },
+ {
+  "t": "DOJO Challenge #26 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-26-winners",
+  "d": ""
+ },
+ {
+  "t": "PimpMyBurp #9 – Use BCheck to improve vulnerability scanning",
+  "u": "https://www.yeswehack.com/en/blog/pimpmyburp-9-use-bcheck-to-improve-vulnerability-scanning",
+  "d": ""
+ },
+ {
+  "t": "DOJO Challenge #25 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-25-winners",
+  "d": ""
+ },
+ {
+  "t": "LeHACK recap: hunters push boundaries at YesWeHack Live Bug Bounty with Red Cross and Les Mousquetaires",
+  "u": "https://www.yeswehack.com/en/blog/lehack-yeswehack-live-bug-bounty-with-red-cross-and-les-mousquetaires",
+  "d": ""
+ },
+ {
+  "t": "Web Application Black-Box Testing",
+  "u": "https://www.yeswehack.com/en/blog/black-box-testing-techniques-web-application",
+  "d": ""
+ },
+ {
+  "t": "How compliance will increasingly drive adoption of Bug Bounty Programs – YesWeHack at Stockholm cyber-defense event",
+  "u": "https://www.yeswehack.com/en/blog/compliance-bug-bounty-programs-yeswehack-at-stockholm-cyber-defense-event",
+  "d": ""
+ },
+ {
+  "t": "DOJO Challenge #24 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-24-winners",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack integrates the prestigious French Tech 2030 program",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-integrates-the-prestigious-french-tech-2030-program",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #20 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-20-winners",
+  "d": ""
+ },
+ {
+  "t": "‘Start small – but start now!’ Inside Orange’s Bug Bounty journey with YesWeHack",
+  "u": "https://www.yeswehack.com/en/blog/start-small-but-start-now-inside-oranges-bug-bounty-journey-with-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "DOJO Challenge #23 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-23-winners",
+  "d": ""
+ },
+ {
+  "t": "PimpMyBurp #8 – Perform Advanced Fuzzing With Turbo Intruder",
+  "u": "https://www.yeswehack.com/en/blog/pimpmyburp-8-advanced-fuzzing-turbo-intruder",
+  "d": ""
+ },
+ {
+  "t": "Raising Awareness Among Development Teams: Hack Day with Scania and YesWeHack in Stockholm",
+  "u": "https://www.yeswehack.com/en/blog/hack-day-with-scania-and-yeswehack-in-stockholm",
+  "d": ""
+ },
+ {
+  "t": "Navigating the Waters of Bug Bounty: Lessons Learned from Brittany Ferries’ Live Event",
+  "u": "https://www.yeswehack.com/en/blog/navigating-the-waters-of-bug-bounty-lessons-learned-from-brittany-ferries-live-event",
+  "d": ""
+ },
+ {
+  "t": "DOJO Challenge #22 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-22-winners",
+  "d": ""
+ },
+ {
+  "t": "Telenor Sweden uses ethical hackers to dial-up cybersecurity to the max",
+  "u": "https://www.yeswehack.com/en/blog/telenor-sweden-to-use-ethical-hackers-to-dial-up-cybersecurity-to-the-max-in-partnership-with-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "Ooredoo Launches New Cyber-Security Program to Upgrade Security Practices and Enhance Cyber-Security",
+  "u": "https://www.yeswehack.com/en/blog/ooredoo-launches-new-cyber-security-program-to-upgrade-security-practices-and-enhance-cyber-security",
+  "d": ""
+ },
+ {
+  "t": "Server side prototype pollution, how to detect and exploit",
+  "u": "https://www.yeswehack.com/en/blog/server-side-prototype-pollution-how-to-detect-and-exploit",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #21 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-21-winners",
+  "d": ""
+ },
+ {
+  "t": "Firefly: a smart black-box fuzzer for web applications testing",
+  "u": "https://www.yeswehack.com/en/blog/firefly-smart-black-box-fuzzer-web-applications",
+  "d": ""
+ },
+ {
+  "t": "PimpMyBurp #7: How HaE Burp Suite extension can help you in your daily hunting session",
+  "u": "https://www.yeswehack.com/en/blog/pimpmyburp-7-how-hae-burp-suite-extension-help-you-daily-hunting",
+  "d": ""
+ },
+ {
+  "t": "A sneak peek into Open-Xchange’s public Bug Bounty programs",
+  "u": "https://www.yeswehack.com/en/blog/a-sneak-peek-into-open-xchange-public-bug-bounty-programs",
+  "d": ""
+ },
+ {
+  "t": "Vulnerability Disclosure Policy as a first step of GfK’s crowdsourced security strategy",
+  "u": "https://www.yeswehack.com/en/blog/vdp-as-a-first-step-of-gfk-crowdsourced-security-strategy",
+  "d": ""
+ },
+ {
+  "t": "Exploring JavaScript's exploits: A deep dive into XSS vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/javascript-language-made-for-bugs",
+  "d": ""
+ },
+ {
+  "t": "Indonesia’s Largest Fintech OVO kicks off its Public Bug Bounty program on YesWeHack",
+  "u": "https://www.yeswehack.com/en/blog/ovo-kicks-off-public-bug-bounty-program-on-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "Turnkey VDP Open Source: making a difference in enhancing cybersecurity as a “public good”",
+  "u": "https://www.yeswehack.com/en/blog/turnkey-vdp-open-source",
+  "d": ""
+ },
+ {
+  "t": "Web application firewall bypass",
+  "u": "https://www.yeswehack.com/en/blog/web-application-firewall-bypass",
+  "d": ""
+ },
+ {
+  "t": "Walk me through Open My Heart – Live Bug Bounty event with Lazada",
+  "u": "https://www.yeswehack.com/en/blog/open-my-heart-live-bug-bounty-with-lazada",
+  "d": ""
+ },
+ {
+  "t": "Let’s get the IoT landscape less vulnerable for all",
+  "u": "https://www.yeswehack.com/en/blog/lets-get-the-iot-landscape-less-vulnerable-for-all",
+  "d": ""
+ },
+ {
+  "t": "Back to Decathlon’s Live Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/back-to-decathlons-live-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #17 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-17-winners",
+  "d": ""
+ },
+ {
+  "t": "The French government’s digital identity application under Bug Bounty program on YesWeHack",
+  "u": "https://www.yeswehack.com/en/blog/the-french-governments-digital-identity-application-under-bug-bounty-program-on-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "YesWeHackVR, an immersive hacking game",
+  "u": "https://www.yeswehack.com/en/blog/yeswehackvr-vr-immersive-hacking-game",
+  "d": ""
+ },
+ {
+  "t": "Abusing S3 Bucket Permissions",
+  "u": "https://www.yeswehack.com/en/blog/abusing-s3-bucket-permissions",
+  "d": ""
+ },
+ {
+  "t": "Parameter Discovery: A quick guide to start",
+  "u": "https://www.yeswehack.com/en/blog/parameter-discovery-quick-guide-to-start",
+  "d": ""
+ },
+ {
+  "t": "The first live Bug Bounty for European scale-ups and unicorns",
+  "u": "https://www.yeswehack.com/en/blog/the-first-live-bug-bounty-for-european-scale-ups-and-unicorns",
+  "d": ""
+ },
+ {
+  "t": "Getting started with smart contract in Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/getting-started-smart-contract-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "Getting Started with iOS Penetration Testing (Part 2)",
+  "u": "https://www.yeswehack.com/en/blog/getting-started-ios-penetration-testing-part-2",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #15 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-15-winners",
+  "d": ""
+ },
+ {
+  "t": "Subdomains Tools Review: a full and detailed comparison of subdomain enumeration tools",
+  "u": "https://www.yeswehack.com/en/blog/subdomains-tools-review-full-detailed-comparison",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #19 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-19-winners",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #18 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojoweb-application-bypass-v2-0",
+  "d": ""
+ },
+ {
+  "t": "Demand for crowdsourced security booms: YesWeHack bug bounty platform continues to thrive",
+  "u": "https://www.yeswehack.com/en/blog/demand-for-crowdsourced-security-booms-yeswehack-bug-bounty-platform-continues-to-thrive",
+  "d": ""
+ },
+ {
+  "t": "Getting Started with iOS Penetration Testing (Part 1)",
+  "u": "https://www.yeswehack.com/en/blog/getting-started-ios-penetration-testing-part-1",
+  "d": ""
+ },
+ {
+  "t": "Log4Shell, Ten Days On: YesWeHack’s Hunters Are at the Forefront of Securing Organisations",
+  "u": "https://www.yeswehack.com/en/blog/log4shell-yeswehacks-hunters-forefront-securing-organisations",
+  "d": ""
+ },
+ {
+  "t": "ATG uses ethical hackers to rein in cybersecurity challenges",
+  "u": "https://www.yeswehack.com/en/blog/atg-ethical-hackers-cybersecurity-challenges-partnership-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "3 Ways Customisable Bug Bounty Programs Improve Flexibility and Agility",
+  "u": "https://www.yeswehack.com/en/blog/three-ways-customisable-bug-bounty-programs-improve-flexibility-and-agility",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #14 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-14-winners",
+  "d": ""
+ },
+ {
+  "t": "DANA invites thousands of global security experts to test its e-wallet",
+  "u": "https://www.yeswehack.com/en/blog/dana-invites-thousands-of-global-security-experts-to-test-its-e-wallet-in-partnership-with-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "PimpMyBurp #6 : Generate your reports directly in Burp Suite with RIO",
+  "u": "https://www.yeswehack.com/en/blog/pimpmyburp-6-generate-reports-directly-burp-suite",
+  "d": ""
+ },
+ {
+  "t": "ZTE Corporation expands its Bug Bounty in partnership with YesWeHack",
+  "u": "https://www.yeswehack.com/en/blog/zte-corporation-expands-its-bug-bounty-in-partnership-with-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "3 Ways to Increase Profits by Driving Agility with Bug Bounty Programs",
+  "u": "https://www.yeswehack.com/en/blog/bug-bounty-increase-profits-by-driving-agility",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #13 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-13-winners",
+  "d": ""
+ },
+ {
+  "t": "PwnMachine: quick update about fix and new features",
+  "u": "https://www.yeswehack.com/en/blog/pwnmachine-quick-update",
+  "d": ""
+ },
+ {
+  "t": "3 Ways to Reduce Overhead Costs and Resources with Bug Bounty Programs",
+  "u": "https://www.yeswehack.com/en/blog/reduce-overhead-costs-and-resources-with-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "Tips for writing your best Bug Bounty report",
+  "u": "https://www.yeswehack.com/en/blog/tips-write-report-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "3 Ways to Stretch Your Security Budget Further With Bug Bounty Programs",
+  "u": "https://www.yeswehack.com/en/blog/3-ways-to-stretch-your-security-budget-further-with-bug-bounty-programs",
+  "d": ""
+ },
+ {
+  "t": "Crowdsourced Security by YesWeHack Helps Swiss Post to Secure Switzerland’s Digital Trust With Rewards up to 230K Euros",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-helps-swiss-post-to-secure-switzerlands-digital-trust-with-rewards",
+  "d": ""
+ },
+ {
+  "t": "Introduction to postMessage() Vulnerabilities",
+  "u": "https://www.yeswehack.com/en/blog/introduction-postmessage-vulnerabilities",
+  "d": ""
+ },
+ {
+  "t": "Give Your Business The Much Needed Security Reality Check With Bug Bounty Programs",
+  "u": "https://www.yeswehack.com/en/blog/get-a-security-reality-check-with-public-bug-bounty-programs",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #12 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-12-winners",
+  "d": ""
+ },
+ {
+  "t": "Pentesting Electron Applications",
+  "u": "https://www.yeswehack.com/en/blog/pentesting-electron-applications",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack raises €16 million to accelerate its international expansion",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-raises-e16-million-to-accelerate-its-international-expansion",
+  "d": ""
+ },
+ {
+  "t": "Benefits of Bug Bounty Programs to Build Transparency and Improve Accountability",
+  "u": "https://www.yeswehack.com/en/blog/benefits-bug-bounty-build-transparency-and-improve-accountability",
+  "d": ""
+ },
+ {
+  "t": "Virtual Patching of Vulnerabilities at the Pace of Business",
+  "u": "https://www.yeswehack.com/en/blog/virtual-patching-of-vulnerabilities-at-the-pace-of-business",
+  "d": ""
+ },
+ {
+  "t": "PimpMyBurp #5 – Intruder: Use the tool to its full advantage",
+  "u": "https://www.yeswehack.com/en/blog/pimpmyburp-5-burp-suite-intruder-tool-full-advantage",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #11 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-11-winners",
+  "d": ""
+ },
+ {
+  "t": "Bug Bounty on Android : setup your Genymotion environment for APK analysis",
+  "u": "https://www.yeswehack.com/en/blog/bug-bounty-android-setup-genymotion-environment-apk-analysis",
+  "d": ""
+ },
+ {
+  "t": "Blind XSS : setup your self-hosted XSS Hunter with the PwnMachine",
+  "u": "https://www.yeswehack.com/en/blog/blind-xss-setup-self-hosted-xss-hunter-pwnmachine",
+  "d": ""
+ },
+ {
+  "t": "File Upload Attacks (Part 2)",
+  "u": "https://www.yeswehack.com/en/blog/file-upload-attacks-part-2",
+  "d": ""
+ },
+ {
+  "t": "YESWEHACK PROPHILE ON ZAX",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-prophile-on-zax",
+  "d": ""
+ },
+ {
+  "t": "Southeast Asia eCommerce platform Lazada launches public Bug Bounty program with YesWeHack",
+  "u": "https://www.yeswehack.com/en/blog/ecommerce-platform-lazada-launches-public-bug-bounty-program-with-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "PwnMachineV2: a new version of the self hosted pwning environment for Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/pwnmachine-new-version-pwn-environment",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #10 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-10-winners",
+  "d": ""
+ },
+ {
+  "t": "How a world-renowned luxury brand implemented a crowdsourced security strategy",
+  "u": "https://www.yeswehack.com/en/blog/how-a-world-renowned-luxury-brand-implemented-a-crowdsourced-security-strategy",
+  "d": ""
+ },
+ {
+  "t": "PimpMyBurp #4: Burp Suite extensions that should get your attention!",
+  "u": "https://www.yeswehack.com/en/blog/pimpmyburp-4-burp-suite-extensions-should-get-your-attention",
+  "d": ""
+ },
+ {
+  "t": "File Upload Attacks (Part 1)",
+  "u": "https://www.yeswehack.com/en/blog/file-upload-attacks-part-1",
+  "d": ""
+ },
+ {
+  "t": "YesWeBurp 2.0 : A new version of our Burp Suite extension is available",
+  "u": "https://www.yeswehack.com/en/blog/yesweburp-new-version-burp-suite-extension-available",
+  "d": ""
+ },
+ {
+  "t": "YESWEHACK PROPHILE ON S5S",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-prophile-on-s5s",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack has received the “Cybersecurity Made in Europe” label issued by ECSO",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-has-received-the-cybersecurity-made-in-europe-label",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #9 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-9-winners",
+  "d": ""
+ },
+ {
+  "t": "How-To: Learn how to write a Burp Suite extension in Kotlin – Setting up",
+  "u": "https://www.yeswehack.com/en/blog/how-to-learn-write-burp-suite-extension-kotlin-setting-up",
+  "d": ""
+ },
+ {
+  "t": "Swiss Post launches public Bug Bounty program with YesWeHack",
+  "u": "https://www.yeswehack.com/en/blog/swiss-post-launches-public-bug-bounty-program-with-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "Parrot launches its Bug Bounty in partnership with YesWeHack",
+  "u": "https://www.yeswehack.com/en/blog/parrot-launches-its-bug-bounty-in-partnership-with-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #8 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-8-winners",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack Tracker 2.1 – it’s all about communication and collaboration",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-tracker-2-1-communication-and-collaboration",
+  "d": ""
+ },
+ {
+  "t": "Achieve Agile Transformation with a Bug Bounty Platform",
+  "u": "https://www.yeswehack.com/en/blog/achieve-agile-transformation-with-a-bug-bounty-platform",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #7 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-7-winners",
+  "d": ""
+ },
+ {
+  "t": "PimpMyBurp #3 – AutoRepeater: add automation to your beautiful hunter life",
+  "u": "https://www.yeswehack.com/en/blog/pimpmyburp-autorepeater-add-automation-burp-suite",
+  "d": ""
+ },
+ {
+  "t": "PimpMyBurp #2 – Auth Analyzer : How to test horizontal and vertical privileges escalation",
+  "u": "https://www.yeswehack.com/en/blog/pimpmyburp-auth-analyzer-test-horizontal-vertical-privileges-escalation",
+  "d": ""
+ },
+ {
+  "t": "Sound policy for a vulnerable-by-default cyberspace",
+  "u": "https://www.yeswehack.com/en/blog/sound-policy-for-a-vulnerable-by-default-cyberspace",
+  "d": ""
+ },
+ {
+  "t": "Ship Innovative Software Faster with YesWeHack Tracker 2.0",
+  "u": "https://www.yeswehack.com/en/blog/ship-innovative-software-faster-with-yeswehack-tracker-2-0",
+  "d": ""
+ },
+ {
+  "t": "PimpMyBurp #1 – PwnFox + Autorize: The perfect combo to find IDOR",
+  "u": "https://www.yeswehack.com/en/blog/pimpmyburp-pwnfox-autorize-find-idor",
+  "d": ""
+ },
+ {
+  "t": "Resilience through community: Looking forward to 2021",
+  "u": "https://www.yeswehack.com/en/blog/resilience-through-community-in-2021",
+  "d": ""
+ },
+ {
+  "t": "How cybersecurity players gain customer trust with Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/how-cybersecurity-players-gain-customer-with-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #6 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-6-winners",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #3 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-3-winners",
+  "d": ""
+ },
+ {
+  "t": "Vulnerability Disclosure Policy through the eyes of a bug hunter",
+  "u": "https://www.yeswehack.com/en/blog/vulnerability-disclosure-policy-through-the-eyes-of-a-bug-hunter",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #2 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-2-winners",
+  "d": ""
+ },
+ {
+  "t": "Practical vulnerability disclosure: VDP made easy",
+  "u": "https://www.yeswehack.com/en/blog/practical-vulnerability-disclosure-vdp-made-easy",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack joins Tech4Trust, Switzerland’s cybersecurity accelerator",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-selected-to-join-the-tech4trust-program",
+  "d": ""
+ },
+ {
+  "t": "Bug Bounty: the business enabler of any DevSecOps toolchain",
+  "u": "https://www.yeswehack.com/en/blog/bug-bounty-the-business-enabler-of-any-devsecops-toolchain",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #5 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-5-winners",
+  "d": ""
+ },
+ {
+  "t": "Cybersecurity spending: fulfil priorities with leaner resources",
+  "u": "https://www.yeswehack.com/en/blog/cybersecurity-spending-fulfil-priorities-with-leaner-resources",
+  "d": ""
+ },
+ {
+  "t": "How we help our clients step-by-step in their Bug Bounty journey",
+  "u": "https://www.yeswehack.com/en/blog/how-we-help-our-clients-step-by-step-in-their-bug-bounty-journey",
+  "d": ""
+ },
+ {
+  "t": "Learn ethical hacking: Insights from YesWeHackEDU users",
+  "u": "https://www.yeswehack.com/en/blog/learn-ethical-hacking-insights-from-yeswehackedu-users",
+  "d": ""
+ },
+ {
+  "t": "Coordinated Vulnerability Disclosure policy for a safer cyberspace",
+  "u": "https://www.yeswehack.com/en/blog/coordinated-vulnerability-disclosure-policy-for-a-safer-cyberspace",
+  "d": ""
+ },
+ {
+  "t": "DevSecOps: Integrating security from idea to continuous delivery",
+  "u": "https://www.yeswehack.com/en/blog/devsecops-integrating-security-from-idea-to-continuous-delivery",
+  "d": ""
+ },
+ {
+  "t": "Boosting E-Commerce Security: PrestaShop's Success with YesWeHack's Public Bug Bounty Program",
+  "u": "https://www.yeswehack.com/en/blog/prestashop-europes-leading-ecommerce-software-moves-to-public-bug-bounty-programme",
+  "d": ""
+ },
+ {
+  "t": "Presenting The Pwning-Machine, a versatile and easy to setup Bug bounty environment.",
+  "u": "https://www.yeswehack.com/en/blog/the-pwning-machine",
+  "d": ""
+ },
+ {
+  "t": "YESWEHACK PROPHILE ON SONNY",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-prophile-on-sonny",
+  "d": ""
+ },
+ {
+  "t": "A framework for successful vulnerability disclosure policy",
+  "u": "https://www.yeswehack.com/en/blog/a-framework-for-successful-vulnerability-disclosure-policy",
+  "d": ""
+ },
+ {
+  "t": "How cloud providers use bug bounty to increase customer trust",
+  "u": "https://www.yeswehack.com/en/blog/how-cloud-providers-use-bug-bounty-to-increase-customers-trust",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack ensures the continuous security of France’s COVID-19 contact tracing app",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-ensures-the-continuous-security-of-frances-covid-19-contact-tracing-app",
+  "d": ""
+ },
+ {
+  "t": "Mobilising collective intelligence for better security",
+  "u": "https://www.yeswehack.com/en/blog/vulnerability-coordination-mobilising-collective-intelligence-for-better-security",
+  "d": ""
+ },
+ {
+  "t": "FireBounty x ONYPHE: Surfacing disclosure policies gets a boost",
+  "u": "https://www.yeswehack.com/en/blog/firebounty-x-onyphe-surfacing-disclosure-policies-gets-a-boost",
+  "d": ""
+ },
+ {
+  "t": "YESWEHACK PROPHILE ON HISXO",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-prophile-on-hisxo",
+  "d": ""
+ },
+ {
+  "t": "Olvid, the ultra-secure messaging app, moves to public bug bounty program",
+  "u": "https://www.yeswehack.com/en/blog/olvid-the-ultra-secure-messaging-app-moves-to-public-bug-bounty-program",
+  "d": ""
+ },
+ {
+  "t": "Roles and responsibilities for efficient vulnerability disclosure",
+  "u": "https://www.yeswehack.com/en/blog/roles-and-responsibilities-for-efficient-vulnerability-disclosure",
+  "d": ""
+ },
+ {
+  "t": "ZeroDisclo.com: Vulnerability disclosure done right",
+  "u": "https://www.yeswehack.com/en/blog/zerodisclo-com-vulnerability-disclosure-done-right",
+  "d": ""
+ },
+ {
+  "t": "How a heavily regulated financial institution implemented Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/how-a-heavily-regulated-financial-institution-implemented-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "YesWeHackEDU: Addressing talent shortage through Bug Bounty",
+  "u": "https://www.yeswehack.com/en/blog/yeswehackedu-addressing-talent-shortage-through-bug-bounty",
+  "d": ""
+ },
+ {
+  "t": "How Outscale secures its sovereign cloud with YesWeHack",
+  "u": "https://www.yeswehack.com/en/blog/how-outscale-secures-its-sovereign-cloud-with-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "DOJO CHALLENGE #4 Winners!",
+  "u": "https://www.yeswehack.com/en/blog/dojo-challenge-4-winners",
+  "d": ""
+ },
+ {
+  "t": "Showcasing your vulnerability disclosure policy to the world",
+  "u": "https://www.yeswehack.com/en/blog/showcasing-your-vulnerability-disclosure-policy-to-the-world",
+  "d": ""
+ },
+ {
+  "t": "Deezer protects their artists & users with a public Bug Bounty program",
+  "u": "https://www.yeswehack.com/en/blog/deezer-protects-their-artists-users-with-a-public-bug-bounty-program",
+  "d": ""
+ },
+ {
+  "t": "BlaBlaCar leverages crowdsourced security to secure its millions of users’ data",
+  "u": "https://www.yeswehack.com/en/blog/blablacar-leverages-crowdsourced-security-to-secure-its-millions-of-users-data",
+  "d": ""
+ },
+ {
+  "t": "YESWEHACK PROPHILE ON EBODA",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-prophile-on-eboda",
+  "d": ""
+ },
+ {
+  "t": "Bug Bounty’s strengths compared to penetration testing",
+  "u": "https://www.yeswehack.com/en/blog/bug-bounty-strengths-compared-to-penetration-testing",
+  "d": ""
+ },
+ {
+  "t": "Fighting malware at the roots",
+  "u": "https://www.yeswehack.com/en/blog/fighting-malware-at-the-roots",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack EDU, the world’s first Bug Bounty educational platform",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-edu-the-worlds-first-bug-bounty-educational-platform",
+  "d": ""
+ },
+ {
+  "t": "Bug bounty is significantly more cost-effective than penetration testing",
+  "u": "https://www.yeswehack.com/en/blog/bug-bounty-is-much-more-cost-effective-than-penetration-testing",
+  "d": ""
+ },
+ {
+  "t": "Bug bounty agility is key for small organisations",
+  "u": "https://www.yeswehack.com/en/blog/bug-bounty-agility-is-key-for-small-organisations",
+  "d": ""
+ },
+ {
+  "t": "We have a small message for the hackers playing with us.",
+  "u": "https://www.yeswehack.com/en/blog/we-have-a-small-message-for-our-hunters",
+  "d": ""
+ },
+ {
+  "t": "gitGraber: A tool to monitor GitHub in real-time to find sensitive data",
+  "u": "https://www.yeswehack.com/en/blog/gitgraber-a-tool-to-monitor-github-in-real-time-to-find-sensitive-data",
+  "d": ""
+ },
+ {
+  "t": "YESWEHACK PROPHILE ON Ak1t4",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-prophile-on-ak1t4",
+  "d": ""
+ },
+ {
+  "t": "Singapore Polytechnic partners with YesWeHack to hold its first-ever bug bounty event",
+  "u": "https://www.yeswehack.com/en/blog/singapore-polytechnic-partners-with-yeswehack",
+  "d": ""
+ },
+ {
+  "t": "A quick update on our ranking point system",
+  "u": "https://www.yeswehack.com/en/blog/a-quick-update-on-our-point-system",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack & Alibaba Security Meetup challenge solution",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-alibaba-hackinggame-writeup",
+  "d": ""
+ },
+ {
+  "t": "Catch the flag, catch the (real!) gold",
+  "u": "https://www.yeswehack.com/en/blog/catch-the-flag-catch-the-gold",
+  "d": ""
+ },
+ {
+  "t": "Let’s break stuff together Singapore: YesWeHack is coming up with a brand new CTF at Infosec in the City!",
+  "u": "https://www.yeswehack.com/en/blog/lets-break-stuff-together-singapore-yeswehack-is-coming-up-with-a-brand-new-ctf-at-infosec-in-the-city",
+  "d": ""
+ },
+ {
+  "t": "The Cybersecurity Act: Strengthening coordinated vulnerability disclosure at the European level",
+  "u": "https://www.yeswehack.com/en/blog/the-cybersecurity-act-strengthening-coordinated-vulnerability-disclosure-at-the-european-level",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack – Europe’s leading Bug Bounty platform – is opening an office in Singapore",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-europes-leading-bug-bounty-platform-is-opening-an-office-in-singapore",
+  "d": ""
+ },
+ {
+  "t": "New YesWeHack Api Extension for Burp",
+  "u": "https://www.yeswehack.com/en/blog/new-burpsuite-extension",
+  "d": ""
+ },
+ {
+  "t": "Solution for “A Weird XSS Case”",
+  "u": "https://www.yeswehack.com/en/blog/solution-for-a-weird-xss-case",
+  "d": ""
+ },
+ {
+  "t": "New features for quicker and improved Bug Reporting!",
+  "u": "https://www.yeswehack.com/en/blog/new-features-for-quicker-and-improved-bug-reporting",
+  "d": ""
+ },
+ {
+  "t": "Lucas aka BitK: high level bug hunter and the brand new YesWeHack Tech Ambassador.",
+  "u": "https://www.yeswehack.com/en/blog/lucas-aka-bitk-bug-hunter-and-yeswehack-tech-ambassador",
+  "d": ""
+ },
+ {
+  "t": "We are SPARTAns: Re-imagining cybersecurity for the European Union",
+  "u": "https://www.yeswehack.com/en/blog/we-are-spartans-re-imagining-cybersecurity-for-the-european-union",
+  "d": ""
+ },
+ {
+  "t": "[ITW] Daniel Kalinowski: “Participating in bug bounties improves your skills and increase the overall knowledge.”",
+  "u": "https://www.yeswehack.com/en/blog/itw-daniel-kalinowski",
+  "d": ""
+ },
+ {
+  "t": "YesWeHack raises €4 million and plans to disrupt Europe’s cybersecurity market",
+  "u": "https://www.yeswehack.com/en/blog/yeswehack-raises-e4-million-and-plans-to-disrupt-europes-cybersecurity-market",
+  "d": ""
+ },
+ {
+  "t": "French Armed Forces Ministry launches a Bug Bounty program",
+  "u": "https://www.yeswehack.com/en/blog/french-armed-forces-ministry-launches-a-bug-bounty-program",
+  "d": ""
+ },
+ {
+  "t": "Incentive Policy for Coordinated Vulnerability Disclosure",
+  "u": "https://www.yeswehack.com/en/blog/incentive-policy-for-coordinated-vulnerability-disclosure",
+  "d": ""
+ }
+]

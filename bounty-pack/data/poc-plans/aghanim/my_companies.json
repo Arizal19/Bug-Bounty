@@ -1,0 +1,37 @@
+[
+ {
+  "name": "Demo Corp",
+  "size": 3,
+  "url": "https://aghanim.com",
+  "domains": [],
+  "viewer_domains": [],
+  "logo_url": "https://static-platform.aghanim.com/dashboard/11/48/5e/30/11485e30-fae1-446b-896f-9d1b20bc3eb4.webp",
+  "instant_payout_status": "review",
+  "terms_version": null,
+  "privacy_version": null,
+  "id": "com_eBRDihmnOJa",
+  "games": [
+   {
+    "name": "DEMO GAME",
+    "logo_url": "https://static-platform.aghanim.com/news/db/46/81/b6/db4681b6-8dba-4450-887e-855d05411e67.webp",
+    "locale_default": "en",
+    "id": "gm_eDTjNboxMxn",
+    "company_id": "com_eBRDihmnOJa",
+    "sandbox": false,
+    "sandbox_game_id": null,
+    "sandbox_game_ids": null,
+    "live_game_id": null,
+    "environment": {
+     "id": "production",
+     "name": null,
+     "color": null
+    },
+    "published_at": null,
+    "status": null,
+    "internal_label": null
+   }
+  ],
+  "is_demo": true,
+  "role": null
+ }
+]

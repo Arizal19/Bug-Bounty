@@ -1,0 +1,9 @@
+https://www.bugcrowd.com/blog/agentic-vs-human-offensive-security-testing-where-ai-actually-earns-its-keep/
+https://www.bugcrowd.com/blog/ai-lectures-with-dr-brumley-part-5-defense-using-ai-the-compliance-clock-is-running/
+https://www.bugcrowd.com/blog/attacker-economics-and-targetability-prioritizing-cyber-defense-for-real-world-risk/
+https://www.bugcrowd.com/blog/does-agentic-pen-testing-replace-vulnerability-scanning/
+https://www.bugcrowd.com/blog/four-ways-traditional-pen-testing-falls-short-for-saas-companies/
+https://www.bugcrowd.com/blog/how-to-choose-the-right-live-hacking-event-for-your-organization/
+https://www.bugcrowd.com/blog/savant-forge-automated-offensive-testing-to-keep-pace-with-ai-generated-code/
+https://www.bugcrowd.com/blog/the-hidden-cost-of-agentic-pentesting/
+https://www.bugcrowd.com/blog/whats-changed-in-ai-security-over-the-past-two-years/

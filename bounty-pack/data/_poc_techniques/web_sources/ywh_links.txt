@@ -1,0 +1,7 @@
+/blog/community
+/blog/customer-stories
+/blog/dojo
+/blog/lab
+/blog/learn-bug-bounty
+/blog/news
+/blog/security-best-practices

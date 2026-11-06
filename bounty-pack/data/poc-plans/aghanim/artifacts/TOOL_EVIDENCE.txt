@@ -1,0 +1,21 @@
+AGHANIM — TOOL EVIDENCE TABLE (all runs, all negative)
+==============================================================================
+tool / invocation                                              artifact                           verdict
+------------------------------------------------------------------------------
+nuclei (tech,cve,exposure,misconfig,exposed-panels) @rl5, 6 hosts artifacts/nuclei_bounded.txt       0 findings
+nuclei full tagset (first pass)                                artifacts/nuclei_core.txt          1 info: dns-waf-detect cloudflare
+gau (10 hosts)                                                 artifacts/gau_*.txt                97 hub routes harvested
+katana (pay + corp)                                            artifacts/katana_*.txt             50 URLs, no new routes
+httpx fingerprint (15 hosts)                                   artifacts/httpx_fingerprint.txt    Cloudflare + Google Cloud CDN everywhere
+subfinder (3 apexes)                                           artifacts/subfinder_aghanim.txt    192 subs (190 OUT of scope)
+ffuf 272-path wordlist x6 API hosts                            (inline, rate 10)                  0 new routes
+dalfox x2 (pay-api order_id, hub limit)                        artifacts/dalfox_*.txt (empty)     0 XSS
+sqlmap api.aghanim.com ?limit                                  (log)                              not injectable, WAF detected
+sqlmap pay-api ?order_id (IPv4 patched)                        artifacts/sqlmap_payapi.log        not injectable, WAF detected
+arjun hub items                                                artifacts/arjun_hub.json           hidden params: country, type
+
+Rework note: first sqlmap run failed 'host does not exist' (getaddrinfo returned IPv6 first,
+no IPv6 route). Fixed via run_sqlmap_ipv4.py (getaddrinfo monkeypatched to AF_INET) -> rerun OK.
+First arjun run 'Skipped due to errors' -> rerun with explicit UA + rate-limit -> OK.
+
+FINDINGS: 0 reportable. No draft created (no valid finding to submit).

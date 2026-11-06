@@ -1,0 +1,69 @@
+{
+ "cookies": [
+  {
+   "name": "__cf_bm",
+   "value": "8hs5aQ4JXhgZDk6.4OFBVnho.MwVNcMQ7Lein5gi6UE-1793112580.166227-1.0.1.1-1nwRZW7Bs_is.tAMC0Br115XjYMktllD1SuH6fkkLwO8nPwjSvXlMXaRBfIJjSVLhWsKQmTB4dBNL7E2WHeOJXrnxBNC4FUEPU5x8Exyp2wzxHhe7ubhm2s7uYmZ44vX",
+   "domain": ".ebanx.com",
+   "path": "/",
+   "expires": 1793114379.972482,
+   "httpOnly": true,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "__ssid",
+   "value": "ac7b541a-217d-4464-a8b1-99d34c041792",
+   "domain": ".aghanim.com",
+   "path": "/",
+   "expires": 1827672580.831341,
+   "httpOnly": false,
+   "secure": false,
+   "sameSite": "Lax"
+  },
+  {
+   "name": "NID",
+   "value": "CuUBCAESlwEBM9Agl8QVSUgZgRdlL6qiBf5DCOHpLyF9sJh-zeCbRSBstF_Ly-XY-7WUet-jQNGGumMvfWFCt1r32U0XmlAv1nvO7hRCQb-WFhCkFXxUd3cGfrzN_SJAl9v__AVjH7q2Ba-qAU6MAobdDd1-YXfXy2B9Hm2ztBuRcabIIr6tw5rLUKwscif0LL_ybWKiMRX8F47rdV2IKAEyRQFwSkLPR2ge-OwLpzE_RK18FxV05-p0E948QbqpDhrF3-q-7bKrmGcRErvX89CsNvx7lMGfCak_pz91Q1Uu-7jlPHq5BA",
+   "domain": ".google.com",
+   "path": "/",
+   "expires": 1808923788.495379,
+   "httpOnly": true,
+   "secure": true,
+   "sameSite": "None"
+  },
+  {
+   "name": "_dd_s_v2",
+   "value": "aid=269e6baa-e01c-40c3-aef6-91368132cf8a&id=67277589-474e-40b9-9e7e-8e2017b78679&created=1793112576489&expire=1793113498754&c=1",
+   "domain": "pay.aghanim.com",
+   "path": "/",
+   "expires": 1824648598.754,
+   "httpOnly": false,
+   "secure": true,
+   "sameSite": "None",
+   "partitionKey": "https://aghanim.com",
+   "_crHasCrossSiteAncestor": false
+  }
+ ],
+ "origins": [
+  {
+   "origin": "https://pay.aghanim.com",
+   "localStorage": [
+    {
+     "name": "theme",
+     "value": "system"
+    },
+    {
+     "name": "checkoutBanner",
+     "value": "{\"shows\":0,\"paid\":true}"
+    },
+    {
+     "name": "emailUser",
+     "value": "\"RESEARCHER_USERNAME+agh1@gmail.com\""
+    },
+    {
+     "name": "tempCreatedUser",
+     "value": "null"
+    }
+   ]
+  }
+ ]
+}

